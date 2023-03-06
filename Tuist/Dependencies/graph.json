@@ -1,0 +1,4874 @@
+{
+  "externalProjects" : [
+    "\/Users\/Aske\/Project\/Fitners\/Tuist\/Dependencies\/SwiftPackageManager\/.build\/checkouts\/swift-collections",
+    {
+      "sourceRootPath" : "\/Users\/Aske\/Project\/Fitners\/Tuist\/Dependencies\/SwiftPackageManager\/.build\/checkouts\/swift-collections",
+      "options" : {
+        "automaticSchemesOptions" : {
+          "disabled" : {
+
+          }
+        },
+        "disableShowEnvironmentVarsInScriptPhases" : false,
+        "disableBundleAccessors" : false,
+        "disableSynthesizedResourceAccessors" : true,
+        "textSettings" : {
+
+        }
+      },
+      "additionalFiles" : [
+
+      ],
+      "targets" : [
+        {
+          "scripts" : [
+
+          ],
+          "deploymentTarget" : {
+            "iOS" : {
+              "_0" : "11.0",
+              "_1" : 3
+            }
+          },
+          "prune" : false,
+          "bundleId" : "Collections",
+          "copyFiles" : [
+
+          ],
+          "launchArguments" : [
+
+          ],
+          "dependencies" : [
+            {
+              "target" : {
+                "name" : "DequeModule"
+              }
+            },
+            {
+              "target" : {
+                "name" : "OrderedCollections"
+              }
+            }
+          ],
+          "additionalFiles" : [
+
+          ],
+          "name" : "Collections",
+          "settings" : {
+            "base" : {
+              "SWIFT_ACTIVE_COMPILATION_CONDITIONS" : {
+                "array" : {
+                  "_0" : [
+                    "$(inherited)",
+                    "SWIFT_PACKAGE"
+                  ]
+                }
+              },
+              "GCC_PREPROCESSOR_DEFINITIONS" : {
+                "array" : {
+                  "_0" : [
+                    "$(inherited)",
+                    "SWIFT_PACKAGE=1"
+                  ]
+                }
+              },
+              "CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER" : {
+                "string" : {
+                  "_0" : "NO"
+                }
+              },
+              "FRAMEWORK_SEARCH_PATHS" : {
+                "array" : {
+                  "_0" : [
+                    "$(inherited)",
+                    "$(PLATFORM_DIR)\/Developer\/Library\/Frameworks"
+                  ]
+                }
+              },
+              "GCC_WARN_INHIBIT_ALL_WARNINGS" : {
+                "string" : {
+                  "_0" : "YES"
+                }
+              },
+              "USE_HEADERMAP" : {
+                "string" : {
+                  "_0" : "NO"
+                }
+              },
+              "ENABLE_STRICT_OBJC_MSGSEND" : {
+                "string" : {
+                  "_0" : "NO"
+                }
+              },
+              "GCC_NO_COMMON_BLOCKS" : {
+                "string" : {
+                  "_0" : "NO"
+                }
+              },
+              "SWIFT_SUPPRESS_WARNINGS" : {
+                "string" : {
+                  "_0" : "YES"
+                }
+              },
+              "CLANG_ENABLE_OBJC_WEAK" : {
+                "string" : {
+                  "_0" : "NO"
+                }
+              },
+              "ALWAYS_SEARCH_USER_PATHS" : {
+                "string" : {
+                  "_0" : "YES"
+                }
+              }
+            },
+            "configurations" : [
+              {
+                "name" : "Debug",
+                "variant" : "debug"
+              },
+              {
+                "settings" : {
+
+                }
+              },
+              {
+                "name" : "Release",
+                "variant" : "release"
+              },
+              {
+                "settings" : {
+
+                }
+              }
+            ],
+            "defaultSettings" : {
+              "recommended" : {
+                "excluding" : [
+
+                ]
+              }
+            }
+          },
+          "coreDataModels" : [
+
+          ],
+          "platform" : "ios",
+          "environment" : {
+
+          },
+          "sources" : [
+            {
+              "path" : "\/Users\/Aske\/Project\/Fitners\/Tuist\/Dependencies\/SwiftPackageManager\/.build\/checkouts\/swift-collections\/Sources\/Collections\/Collections.docc"
+            },
+            {
+              "path" : "\/Users\/Aske\/Project\/Fitners\/Tuist\/Dependencies\/SwiftPackageManager\/.build\/checkouts\/swift-collections\/Sources\/Collections\/Collections.swift"
+            }
+          ],
+          "resources" : [
+
+          ],
+          "product" : "staticFramework",
+          "playgrounds" : [
+
+          ],
+          "productName" : "Collections",
+          "filesGroup" : {
+            "group" : {
+              "name" : "Project"
+            }
+          },
+          "rawScriptBuildPhases" : [
+
+          ],
+          "infoPlist" : {
+            "extendingDefault" : {
+              "with" : {
+
+              }
+            }
+          }
+        },
+        {
+          "scripts" : [
+
+          ],
+          "deploymentTarget" : {
+            "iOS" : {
+              "_0" : "11.0",
+              "_1" : 3
+            }
+          },
+          "prune" : false,
+          "bundleId" : "DequeModule",
+          "copyFiles" : [
+
+          ],
+          "launchArguments" : [
+
+          ],
+          "dependencies" : [
+
+          ],
+          "additionalFiles" : [
+
+          ],
+          "name" : "DequeModule",
+          "settings" : {
+            "base" : {
+              "SWIFT_ACTIVE_COMPILATION_CONDITIONS" : {
+                "array" : {
+                  "_0" : [
+                    "$(inherited)",
+                    "SWIFT_PACKAGE"
+                  ]
+                }
+              },
+              "CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER" : {
+                "string" : {
+                  "_0" : "NO"
+                }
+              },
+              "ENABLE_STRICT_OBJC_MSGSEND" : {
+                "string" : {
+                  "_0" : "NO"
+                }
+              },
+              "FRAMEWORK_SEARCH_PATHS" : {
+                "array" : {
+                  "_0" : [
+                    "$(inherited)",
+                    "$(PLATFORM_DIR)\/Developer\/Library\/Frameworks"
+                  ]
+                }
+              },
+              "GCC_WARN_INHIBIT_ALL_WARNINGS" : {
+                "string" : {
+                  "_0" : "YES"
+                }
+              },
+              "USE_HEADERMAP" : {
+                "string" : {
+                  "_0" : "NO"
+                }
+              },
+              "GCC_NO_COMMON_BLOCKS" : {
+                "string" : {
+                  "_0" : "NO"
+                }
+              },
+              "ALWAYS_SEARCH_USER_PATHS" : {
+                "string" : {
+                  "_0" : "YES"
+                }
+              },
+              "SWIFT_SUPPRESS_WARNINGS" : {
+                "string" : {
+                  "_0" : "YES"
+                }
+              },
+              "CLANG_ENABLE_OBJC_WEAK" : {
+                "string" : {
+                  "_0" : "NO"
+                }
+              },
+              "GCC_PREPROCESSOR_DEFINITIONS" : {
+                "array" : {
+                  "_0" : [
+                    "$(inherited)",
+                    "SWIFT_PACKAGE=1"
+                  ]
+                }
+              }
+            },
+            "configurations" : [
+              {
+                "name" : "Release",
+                "variant" : "release"
+              },
+              {
+                "settings" : {
+
+                }
+              },
+              {
+                "name" : "Debug",
+                "variant" : "debug"
+              },
+              {
+                "settings" : {
+
+                }
+              }
+            ],
+            "defaultSettings" : {
+              "recommended" : {
+                "excluding" : [
+
+                ]
+              }
+            }
+          },
+          "coreDataModels" : [
+
+          ],
+          "platform" : "ios",
+          "environment" : {
+
+          },
+          "sources" : [
+            {
+              "path" : "\/Users\/Aske\/Project\/Fitners\/Tuist\/Dependencies\/SwiftPackageManager\/.build\/checkouts\/swift-collections\/Sources\/DequeModule\/Deque+CustomStringConvertible.swift"
+            },
+            {
+              "path" : "\/Users\/Aske\/Project\/Fitners\/Tuist\/Dependencies\/SwiftPackageManager\/.build\/checkouts\/swift-collections\/Sources\/DequeModule\/Compatibility.swift"
+            },
+            {
+              "path" : "\/Users\/Aske\/Project\/Fitners\/Tuist\/Dependencies\/SwiftPackageManager\/.build\/checkouts\/swift-collections\/Sources\/DequeModule\/Deque+Equatable.swift"
+            },
+            {
+              "path" : "\/Users\/Aske\/Project\/Fitners\/Tuist\/Dependencies\/SwiftPackageManager\/.build\/checkouts\/swift-collections\/Sources\/DequeModule\/Deque+ExpressibleByArrayLiteral.swift"
+            },
+            {
+              "path" : "\/Users\/Aske\/Project\/Fitners\/Tuist\/Dependencies\/SwiftPackageManager\/.build\/checkouts\/swift-collections\/Sources\/DequeModule\/_DequeBufferHeader.swift"
+            },
+            {
+              "path" : "\/Users\/Aske\/Project\/Fitners\/Tuist\/Dependencies\/SwiftPackageManager\/.build\/checkouts\/swift-collections\/Sources\/DequeModule\/DequeModule.docc"
+            },
+            {
+              "path" : "\/Users\/Aske\/Project\/Fitners\/Tuist\/Dependencies\/SwiftPackageManager\/.build\/checkouts\/swift-collections\/Sources\/DequeModule\/Deque+Codable.swift"
+            },
+            {
+              "path" : "\/Users\/Aske\/Project\/Fitners\/Tuist\/Dependencies\/SwiftPackageManager\/.build\/checkouts\/swift-collections\/Sources\/DequeModule\/_UnsafeWrappedBuffer.swift"
+            },
+            {
+              "path" : "\/Users\/Aske\/Project\/Fitners\/Tuist\/Dependencies\/SwiftPackageManager\/.build\/checkouts\/swift-collections\/Sources\/DequeModule\/Deque+CustomDebugStringConvertible.swift"
+            },
+            {
+              "path" : "\/Users\/Aske\/Project\/Fitners\/Tuist\/Dependencies\/SwiftPackageManager\/.build\/checkouts\/swift-collections\/Sources\/DequeModule\/Deque+Extras.swift"
+            },
+            {
+              "path" : "\/Users\/Aske\/Project\/Fitners\/Tuist\/Dependencies\/SwiftPackageManager\/.build\/checkouts\/swift-collections\/Sources\/DequeModule\/_DequeBuffer.swift"
+            },
+            {
+              "path" : "\/Users\/Aske\/Project\/Fitners\/Tuist\/Dependencies\/SwiftPackageManager\/.build\/checkouts\/swift-collections\/Sources\/DequeModule\/Deque+Collection.swift"
+            },
+            {
+              "path" : "\/Users\/Aske\/Project\/Fitners\/Tuist\/Dependencies\/SwiftPackageManager\/.build\/checkouts\/swift-collections\/Sources\/DequeModule\/Deque._UnsafeHandle.swift"
+            },
+            {
+              "path" : "\/Users\/Aske\/Project\/Fitners\/Tuist\/Dependencies\/SwiftPackageManager\/.build\/checkouts\/swift-collections\/Sources\/DequeModule\/Deque+CustomReflectable.swift"
+            },
+            {
+              "path" : "\/Users\/Aske\/Project\/Fitners\/Tuist\/Dependencies\/SwiftPackageManager\/.build\/checkouts\/swift-collections\/Sources\/DequeModule\/Deque+Testing.swift"
+            },
+            {
+              "path" : "\/Users\/Aske\/Project\/Fitners\/Tuist\/Dependencies\/SwiftPackageManager\/.build\/checkouts\/swift-collections\/Sources\/DequeModule\/UnsafeMutableBufferPointer+Utilities.swift"
+            },
+            {
+              "path" : "\/Users\/Aske\/Project\/Fitners\/Tuist\/Dependencies\/SwiftPackageManager\/.build\/checkouts\/swift-collections\/Sources\/DequeModule\/_DequeSlot.swift"
+            },
+            {
+              "path" : "\/Users\/Aske\/Project\/Fitners\/Tuist\/Dependencies\/SwiftPackageManager\/.build\/checkouts\/swift-collections\/Sources\/DequeModule\/Deque.swift"
+            },
+            {
+              "path" : "\/Users\/Aske\/Project\/Fitners\/Tuist\/Dependencies\/SwiftPackageManager\/.build\/checkouts\/swift-collections\/Sources\/DequeModule\/Deque._Storage.swift"
+            },
+            {
+              "path" : "\/Users\/Aske\/Project\/Fitners\/Tuist\/Dependencies\/SwiftPackageManager\/.build\/checkouts\/swift-collections\/Sources\/DequeModule\/Deque+Hashable.swift"
+            }
+          ],
+          "resources" : [
+
+          ],
+          "product" : "staticFramework",
+          "playgrounds" : [
+
+          ],
+          "productName" : "DequeModule",
+          "filesGroup" : {
+            "group" : {
+              "name" : "Project"
+            }
+          },
+          "rawScriptBuildPhases" : [
+
+          ],
+          "infoPlist" : {
+            "extendingDefault" : {
+              "with" : {
+
+              }
+            }
+          }
+        },
+        {
+          "scripts" : [
+
+          ],
+          "deploymentTarget" : {
+            "iOS" : {
+              "_0" : "11.0",
+              "_1" : 3
+            }
+          },
+          "prune" : false,
+          "bundleId" : "OrderedCollections",
+          "copyFiles" : [
+
+          ],
+          "launchArguments" : [
+
+          ],
+          "dependencies" : [
+
+          ],
+          "additionalFiles" : [
+
+          ],
+          "name" : "OrderedCollections",
+          "settings" : {
+            "base" : {
+              "ALWAYS_SEARCH_USER_PATHS" : {
+                "string" : {
+                  "_0" : "YES"
+                }
+              },
+              "CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER" : {
+                "string" : {
+                  "_0" : "NO"
+                }
+              },
+              "ENABLE_STRICT_OBJC_MSGSEND" : {
+                "string" : {
+                  "_0" : "NO"
+                }
+              },
+              "FRAMEWORK_SEARCH_PATHS" : {
+                "array" : {
+                  "_0" : [
+                    "$(inherited)",
+                    "$(PLATFORM_DIR)\/Developer\/Library\/Frameworks"
+                  ]
+                }
+              },
+              "GCC_WARN_INHIBIT_ALL_WARNINGS" : {
+                "string" : {
+                  "_0" : "YES"
+                }
+              },
+              "GCC_NO_COMMON_BLOCKS" : {
+                "string" : {
+                  "_0" : "NO"
+                }
+              },
+              "USE_HEADERMAP" : {
+                "string" : {
+                  "_0" : "NO"
+                }
+              },
+              "SWIFT_ACTIVE_COMPILATION_CONDITIONS" : {
+                "array" : {
+                  "_0" : [
+                    "$(inherited)",
+                    "SWIFT_PACKAGE"
+                  ]
+                }
+              },
+              "SWIFT_SUPPRESS_WARNINGS" : {
+                "string" : {
+                  "_0" : "YES"
+                }
+              },
+              "CLANG_ENABLE_OBJC_WEAK" : {
+                "string" : {
+                  "_0" : "NO"
+                }
+              },
+              "GCC_PREPROCESSOR_DEFINITIONS" : {
+                "array" : {
+                  "_0" : [
+                    "$(inherited)",
+                    "SWIFT_PACKAGE=1"
+                  ]
+                }
+              }
+            },
+            "configurations" : [
+              {
+                "name" : "Debug",
+                "variant" : "debug"
+              },
+              {
+                "settings" : {
+
+                }
+              },
+              {
+                "name" : "Release",
+                "variant" : "release"
+              },
+              {
+                "settings" : {
+
+                }
+              }
+            ],
+            "defaultSettings" : {
+              "recommended" : {
+                "excluding" : [
+
+                ]
+              }
+            }
+          },
+          "coreDataModels" : [
+
+          ],
+          "platform" : "ios",
+          "environment" : {
+
+          },
+          "sources" : [
+            {
+              "path" : "\/Users\/Aske\/Project\/Fitners\/Tuist\/Dependencies\/SwiftPackageManager\/.build\/checkouts\/swift-collections\/Sources\/OrderedCollections\/OrderedSet\/OrderedSet.swift"
+            },
+            {
+              "path" : "\/Users\/Aske\/Project\/Fitners\/Tuist\/Dependencies\/SwiftPackageManager\/.build\/checkouts\/swift-collections\/Sources\/OrderedCollections\/OrderedSet\/OrderedSet+CustomDebugStringConvertible.swift"
+            },
+            {
+              "path" : "\/Users\/Aske\/Project\/Fitners\/Tuist\/Dependencies\/SwiftPackageManager\/.build\/checkouts\/swift-collections\/Sources\/OrderedCollections\/OrderedDictionary\/OrderedDictionary+Initializers.swift"
+            },
+            {
+              "path" : "\/Users\/Aske\/Project\/Fitners\/Tuist\/Dependencies\/SwiftPackageManager\/.build\/checkouts\/swift-collections\/Sources\/OrderedCollections\/HashTable\/_HashTable.swift"
+            },
+            {
+              "path" : "\/Users\/Aske\/Project\/Fitners\/Tuist\/Dependencies\/SwiftPackageManager\/.build\/checkouts\/swift-collections\/Sources\/OrderedCollections\/OrderedSet\/OrderedSet+Testing.swift"
+            },
+            {
+              "path" : "\/Users\/Aske\/Project\/Fitners\/Tuist\/Dependencies\/SwiftPackageManager\/.build\/checkouts\/swift-collections\/Sources\/OrderedCollections\/OrderedDictionary\/OrderedDictionary+Codable.swift"
+            },
+            {
+              "path" : "\/Users\/Aske\/Project\/Fitners\/Tuist\/Dependencies\/SwiftPackageManager\/.build\/checkouts\/swift-collections\/Sources\/OrderedCollections\/OrderedDictionary\/OrderedDictionary+CustomDebugStringConvertible.swift"
+            },
+            {
+              "path" : "\/Users\/Aske\/Project\/Fitners\/Tuist\/Dependencies\/SwiftPackageManager\/.build\/checkouts\/swift-collections\/Sources\/OrderedCollections\/OrderedSet\/OrderedSet+RandomAccessCollection.swift"
+            },
+            {
+              "path" : "\/Users\/Aske\/Project\/Fitners\/Tuist\/Dependencies\/SwiftPackageManager\/.build\/checkouts\/swift-collections\/Sources\/OrderedCollections\/Utilities\/RandomAccessCollection+Offsets.swift"
+            },
+            {
+              "path" : "\/Users\/Aske\/Project\/Fitners\/Tuist\/Dependencies\/SwiftPackageManager\/.build\/checkouts\/swift-collections\/Sources\/OrderedCollections\/HashTable\/_HashTable+Bucket.swift"
+            },
+            {
+              "path" : "\/Users\/Aske\/Project\/Fitners\/Tuist\/Dependencies\/SwiftPackageManager\/.build\/checkouts\/swift-collections\/Sources\/OrderedCollections\/HashTable\/_HashTable+UnsafeHandle.swift"
+            },
+            {
+              "path" : "\/Users\/Aske\/Project\/Fitners\/Tuist\/Dependencies\/SwiftPackageManager\/.build\/checkouts\/swift-collections\/Sources\/OrderedCollections\/OrderedSet\/OrderedSet+UnstableInternals.swift"
+            },
+            {
+              "path" : "\/Users\/Aske\/Project\/Fitners\/Tuist\/Dependencies\/SwiftPackageManager\/.build\/checkouts\/swift-collections\/Sources\/OrderedCollections\/OrderedSet\/OrderedSet+Partial SetAlgebra+Predicates.swift"
+            },
+            {
+              "path" : "\/Users\/Aske\/Project\/Fitners\/Tuist\/Dependencies\/SwiftPackageManager\/.build\/checkouts\/swift-collections\/Sources\/OrderedCollections\/OrderedDictionary\/OrderedDictionary+ExpressibleByDictionaryLiteral.swift"
+            },
+            {
+              "path" : "\/Users\/Aske\/Project\/Fitners\/Tuist\/Dependencies\/SwiftPackageManager\/.build\/checkouts\/swift-collections\/Sources\/OrderedCollections\/OrderedSet\/OrderedSet+UnorderedView.swift"
+            },
+            {
+              "path" : "\/Users\/Aske\/Project\/Fitners\/Tuist\/Dependencies\/SwiftPackageManager\/.build\/checkouts\/swift-collections\/Sources\/OrderedCollections\/OrderedSet\/OrderedSet+Partial MutableCollection.swift"
+            },
+            {
+              "path" : "\/Users\/Aske\/Project\/Fitners\/Tuist\/Dependencies\/SwiftPackageManager\/.build\/checkouts\/swift-collections\/Sources\/OrderedCollections\/OrderedSet\/OrderedSet+Invariants.swift"
+            },
+            {
+              "path" : "\/Users\/Aske\/Project\/Fitners\/Tuist\/Dependencies\/SwiftPackageManager\/.build\/checkouts\/swift-collections\/Sources\/OrderedCollections\/OrderedDictionary\/OrderedDictionary+Deprecations.swift"
+            },
+            {
+              "path" : "\/Users\/Aske\/Project\/Fitners\/Tuist\/Dependencies\/SwiftPackageManager\/.build\/checkouts\/swift-collections\/Sources\/OrderedCollections\/HashTable\/_Hashtable+Header.swift"
+            },
+            {
+              "path" : "\/Users\/Aske\/Project\/Fitners\/Tuist\/Dependencies\/SwiftPackageManager\/.build\/checkouts\/swift-collections\/Sources\/OrderedCollections\/OrderedDictionary\/OrderedDictionary+Hashable.swift"
+            },
+            {
+              "path" : "\/Users\/Aske\/Project\/Fitners\/Tuist\/Dependencies\/SwiftPackageManager\/.build\/checkouts\/swift-collections\/Sources\/OrderedCollections\/OrderedDictionary\/OrderedDictionary+Invariants.swift"
+            },
+            {
+              "path" : "\/Users\/Aske\/Project\/Fitners\/Tuist\/Dependencies\/SwiftPackageManager\/.build\/checkouts\/swift-collections\/Sources\/OrderedCollections\/HashTable\/_HashTable+CustomStringConvertible.swift"
+            },
+            {
+              "path" : "\/Users\/Aske\/Project\/Fitners\/Tuist\/Dependencies\/SwiftPackageManager\/.build\/checkouts\/swift-collections\/Sources\/OrderedCollections\/OrderedDictionary\/OrderedDictionary+Equatable.swift"
+            },
+            {
+              "path" : "\/Users\/Aske\/Project\/Fitners\/Tuist\/Dependencies\/SwiftPackageManager\/.build\/checkouts\/swift-collections\/Sources\/OrderedCollections\/OrderedCollections.docc"
+            },
+            {
+              "path" : "\/Users\/Aske\/Project\/Fitners\/Tuist\/Dependencies\/SwiftPackageManager\/.build\/checkouts\/swift-collections\/Sources\/OrderedCollections\/HashTable\/_HashTable+BucketIterator.swift"
+            },
+            {
+              "path" : "\/Users\/Aske\/Project\/Fitners\/Tuist\/Dependencies\/SwiftPackageManager\/.build\/checkouts\/swift-collections\/Sources\/OrderedCollections\/OrderedDictionary\/OrderedDictionary+Elements.swift"
+            },
+            {
+              "path" : "\/Users\/Aske\/Project\/Fitners\/Tuist\/Dependencies\/SwiftPackageManager\/.build\/checkouts\/swift-collections\/Sources\/OrderedCollections\/OrderedSet\/OrderedSet+SubSequence.swift"
+            },
+            {
+              "path" : "\/Users\/Aske\/Project\/Fitners\/Tuist\/Dependencies\/SwiftPackageManager\/.build\/checkouts\/swift-collections\/Sources\/OrderedCollections\/OrderedDictionary\/OrderedDictionary+Elements+SubSequence.swift"
+            },
+            {
+              "path" : "\/Users\/Aske\/Project\/Fitners\/Tuist\/Dependencies\/SwiftPackageManager\/.build\/checkouts\/swift-collections\/Sources\/OrderedCollections\/OrderedSet\/OrderedSet+ReserveCapacity.swift"
+            },
+            {
+              "path" : "\/Users\/Aske\/Project\/Fitners\/Tuist\/Dependencies\/SwiftPackageManager\/.build\/checkouts\/swift-collections\/Sources\/OrderedCollections\/OrderedSet\/OrderedSet+Equatable.swift"
+            },
+            {
+              "path" : "\/Users\/Aske\/Project\/Fitners\/Tuist\/Dependencies\/SwiftPackageManager\/.build\/checkouts\/swift-collections\/Sources\/OrderedCollections\/OrderedSet\/OrderedSet+Insertions.swift"
+            },
+            {
+              "path" : "\/Users\/Aske\/Project\/Fitners\/Tuist\/Dependencies\/SwiftPackageManager\/.build\/checkouts\/swift-collections\/Sources\/OrderedCollections\/OrderedSet\/OrderedSet+Hashable.swift"
+            },
+            {
+              "path" : "\/Users\/Aske\/Project\/Fitners\/Tuist\/Dependencies\/SwiftPackageManager\/.build\/checkouts\/swift-collections\/Sources\/OrderedCollections\/OrderedSet\/OrderedSet+CustomReflectable.swift"
+            },
+            {
+              "path" : "\/Users\/Aske\/Project\/Fitners\/Tuist\/Dependencies\/SwiftPackageManager\/.build\/checkouts\/swift-collections\/Sources\/OrderedCollections\/OrderedDictionary\/OrderedDictionary+CustomStringConvertible.swift"
+            },
+            {
+              "path" : "\/Users\/Aske\/Project\/Fitners\/Tuist\/Dependencies\/SwiftPackageManager\/.build\/checkouts\/swift-collections\/Sources\/OrderedCollections\/OrderedSet\/OrderedSet+CustomStringConvertible.swift"
+            },
+            {
+              "path" : "\/Users\/Aske\/Project\/Fitners\/Tuist\/Dependencies\/SwiftPackageManager\/.build\/checkouts\/swift-collections\/Sources\/OrderedCollections\/HashTable\/_HashTable+Constants.swift"
+            },
+            {
+              "path" : "\/Users\/Aske\/Project\/Fitners\/Tuist\/Dependencies\/SwiftPackageManager\/.build\/checkouts\/swift-collections\/Sources\/OrderedCollections\/OrderedDictionary\/OrderedDictionary+Partial RangeReplaceableCollection.swift"
+            },
+            {
+              "path" : "\/Users\/Aske\/Project\/Fitners\/Tuist\/Dependencies\/SwiftPackageManager\/.build\/checkouts\/swift-collections\/Sources\/OrderedCollections\/OrderedDictionary\/OrderedDictionary+Values.swift"
+            },
+            {
+              "path" : "\/Users\/Aske\/Project\/Fitners\/Tuist\/Dependencies\/SwiftPackageManager\/.build\/checkouts\/swift-collections\/Sources\/OrderedCollections\/OrderedSet\/OrderedSet+Initializers.swift"
+            },
+            {
+              "path" : "\/Users\/Aske\/Project\/Fitners\/Tuist\/Dependencies\/SwiftPackageManager\/.build\/checkouts\/swift-collections\/Sources\/OrderedCollections\/OrderedDictionary\/OrderedDictionary+CustomReflectable.swift"
+            },
+            {
+              "path" : "\/Users\/Aske\/Project\/Fitners\/Tuist\/Dependencies\/SwiftPackageManager\/.build\/checkouts\/swift-collections\/Sources\/OrderedCollections\/OrderedSet\/OrderedSet+Partial SetAlgebra+Basics.swift"
+            },
+            {
+              "path" : "\/Users\/Aske\/Project\/Fitners\/Tuist\/Dependencies\/SwiftPackageManager\/.build\/checkouts\/swift-collections\/Sources\/OrderedCollections\/OrderedSet\/OrderedSet+Diffing.swift"
+            },
+            {
+              "path" : "\/Users\/Aske\/Project\/Fitners\/Tuist\/Dependencies\/SwiftPackageManager\/.build\/checkouts\/swift-collections\/Sources\/OrderedCollections\/Utilities\/_UnsafeBitset.swift"
+            },
+            {
+              "path" : "\/Users\/Aske\/Project\/Fitners\/Tuist\/Dependencies\/SwiftPackageManager\/.build\/checkouts\/swift-collections\/Sources\/OrderedCollections\/OrderedSet\/OrderedSet+ExpressibleByArrayLiteral.swift"
+            },
+            {
+              "path" : "\/Users\/Aske\/Project\/Fitners\/Tuist\/Dependencies\/SwiftPackageManager\/.build\/checkouts\/swift-collections\/Sources\/OrderedCollections\/OrderedSet\/OrderedSet+Partial RangeReplaceableCollection.swift"
+            },
+            {
+              "path" : "\/Users\/Aske\/Project\/Fitners\/Tuist\/Dependencies\/SwiftPackageManager\/.build\/checkouts\/swift-collections\/Sources\/OrderedCollections\/OrderedSet\/OrderedSet+Codable.swift"
+            },
+            {
+              "path" : "\/Users\/Aske\/Project\/Fitners\/Tuist\/Dependencies\/SwiftPackageManager\/.build\/checkouts\/swift-collections\/Sources\/OrderedCollections\/OrderedDictionary\/OrderedDictionary+Partial MutableCollection.swift"
+            },
+            {
+              "path" : "\/Users\/Aske\/Project\/Fitners\/Tuist\/Dependencies\/SwiftPackageManager\/.build\/checkouts\/swift-collections\/Sources\/OrderedCollections\/HashTable\/_HashTable+Testing.swift"
+            },
+            {
+              "path" : "\/Users\/Aske\/Project\/Fitners\/Tuist\/Dependencies\/SwiftPackageManager\/.build\/checkouts\/swift-collections\/Sources\/OrderedCollections\/OrderedDictionary\/OrderedDictionary+Sequence.swift"
+            },
+            {
+              "path" : "\/Users\/Aske\/Project\/Fitners\/Tuist\/Dependencies\/SwiftPackageManager\/.build\/checkouts\/swift-collections\/Sources\/OrderedCollections\/OrderedSet\/OrderedSet+Partial SetAlgebra+Operations.swift"
+            },
+            {
+              "path" : "\/Users\/Aske\/Project\/Fitners\/Tuist\/Dependencies\/SwiftPackageManager\/.build\/checkouts\/swift-collections\/Sources\/OrderedCollections\/OrderedDictionary\/OrderedDictionary.swift"
+            }
+          ],
+          "resources" : [
+
+          ],
+          "product" : "staticFramework",
+          "playgrounds" : [
+
+          ],
+          "productName" : "OrderedCollections",
+          "filesGroup" : {
+            "group" : {
+              "name" : "Project"
+            }
+          },
+          "rawScriptBuildPhases" : [
+
+          ],
+          "infoPlist" : {
+            "extendingDefault" : {
+              "with" : {
+
+              }
+            }
+          }
+        }
+      ],
+      "settings" : {
+        "base" : {
+
+        },
+        "configurations" : [
+          {
+            "name" : "Release",
+            "variant" : "release"
+          },
+          {
+            "settings" : {
+
+            }
+          },
+          {
+            "name" : "Debug",
+            "variant" : "debug"
+          },
+          {
+            "settings" : {
+
+            }
+          }
+        ],
+        "defaultSettings" : {
+          "recommended" : {
+            "excluding" : [
+
+            ]
+          }
+        }
+      },
+      "path" : "\/Users\/Aske\/Project\/Fitners\/Tuist\/Dependencies\/SwiftPackageManager\/.build\/checkouts\/swift-collections",
+      "isExternal" : true,
+      "filesGroup" : {
+        "group" : {
+          "name" : "Project"
+        }
+      },
+      "packages" : [
+
+      ],
+      "xcodeProjPath" : "\/Users\/Aske\/Project\/Fitners\/Tuist\/Dependencies\/SwiftPackageManager\/.build\/checkouts\/swift-collections\/swift-collections.xcodeproj",
+      "resourceSynthesizers" : [
+        {
+          "template" : {
+            "defaultTemplate" : {
+              "_0" : "Strings"
+            }
+          },
+          "parser" : "strings",
+          "extensions" : [
+            "strings",
+            "stringsdict"
+          ]
+        },
+        {
+          "template" : {
+            "defaultTemplate" : {
+              "_0" : "Assets"
+            }
+          },
+          "parser" : "assets",
+          "extensions" : [
+            "xcassets"
+          ]
+        },
+        {
+          "template" : {
+            "defaultTemplate" : {
+              "_0" : "Plists"
+            }
+          },
+          "parser" : "plists",
+          "extensions" : [
+            "plist"
+          ]
+        },
+        {
+          "template" : {
+            "defaultTemplate" : {
+              "_0" : "Fonts"
+            }
+          },
+          "parser" : "fonts",
+          "extensions" : [
+            "ttc",
+            "ttf",
+            "otf"
+          ]
+        }
+      ],
+      "lastUpgradeCheck" : "99.9.9",
+      "schemes" : [
+
+      ],
+      "name" : "swift-collections"
+    },
+    "\/Users\/Aske\/Project\/Fitners\/Tuist\/Dependencies\/SwiftPackageManager\/.build\/checkouts\/combine-schedulers",
+    {
+      "sourceRootPath" : "\/Users\/Aske\/Project\/Fitners\/Tuist\/Dependencies\/SwiftPackageManager\/.build\/checkouts\/combine-schedulers",
+      "options" : {
+        "automaticSchemesOptions" : {
+          "disabled" : {
+
+          }
+        },
+        "disableShowEnvironmentVarsInScriptPhases" : false,
+        "disableBundleAccessors" : false,
+        "disableSynthesizedResourceAccessors" : true,
+        "textSettings" : {
+
+        }
+      },
+      "additionalFiles" : [
+
+      ],
+      "targets" : [
+        {
+          "scripts" : [
+
+          ],
+          "deploymentTarget" : {
+            "iOS" : {
+              "_0" : "13.0",
+              "_1" : 3
+            }
+          },
+          "prune" : false,
+          "bundleId" : "CombineSchedulers",
+          "copyFiles" : [
+
+          ],
+          "launchArguments" : [
+
+          ],
+          "dependencies" : [
+            {
+              "project" : {
+                "target" : "XCTestDynamicOverlay",
+                "path" : "\/Users\/Aske\/Project\/Fitners\/Tuist\/Dependencies\/SwiftPackageManager\/.build\/checkouts\/xctest-dynamic-overlay"
+              }
+            }
+          ],
+          "additionalFiles" : [
+
+          ],
+          "name" : "CombineSchedulers",
+          "settings" : {
+            "base" : {
+              "SWIFT_ACTIVE_COMPILATION_CONDITIONS" : {
+                "array" : {
+                  "_0" : [
+                    "$(inherited)",
+                    "SWIFT_PACKAGE"
+                  ]
+                }
+              },
+              "ALWAYS_SEARCH_USER_PATHS" : {
+                "string" : {
+                  "_0" : "YES"
+                }
+              },
+              "ENABLE_STRICT_OBJC_MSGSEND" : {
+                "string" : {
+                  "_0" : "NO"
+                }
+              },
+              "GCC_WARN_INHIBIT_ALL_WARNINGS" : {
+                "string" : {
+                  "_0" : "YES"
+                }
+              },
+              "FRAMEWORK_SEARCH_PATHS" : {
+                "array" : {
+                  "_0" : [
+                    "$(inherited)",
+                    "$(PLATFORM_DIR)\/Developer\/Library\/Frameworks"
+                  ]
+                }
+              },
+              "GCC_NO_COMMON_BLOCKS" : {
+                "string" : {
+                  "_0" : "NO"
+                }
+              },
+              "USE_HEADERMAP" : {
+                "string" : {
+                  "_0" : "NO"
+                }
+              },
+              "CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER" : {
+                "string" : {
+                  "_0" : "NO"
+                }
+              },
+              "SWIFT_SUPPRESS_WARNINGS" : {
+                "string" : {
+                  "_0" : "YES"
+                }
+              },
+              "CLANG_ENABLE_OBJC_WEAK" : {
+                "string" : {
+                  "_0" : "NO"
+                }
+              },
+              "GCC_PREPROCESSOR_DEFINITIONS" : {
+                "array" : {
+                  "_0" : [
+                    "$(inherited)",
+                    "SWIFT_PACKAGE=1"
+                  ]
+                }
+              }
+            },
+            "configurations" : [
+              {
+                "name" : "Debug",
+                "variant" : "debug"
+              },
+              {
+                "settings" : {
+
+                }
+              },
+              {
+                "name" : "Release",
+                "variant" : "release"
+              },
+              {
+                "settings" : {
+
+                }
+              }
+            ],
+            "defaultSettings" : {
+              "recommended" : {
+                "excluding" : [
+
+                ]
+              }
+            }
+          },
+          "coreDataModels" : [
+
+          ],
+          "platform" : "ios",
+          "environment" : {
+
+          },
+          "sources" : [
+            {
+              "path" : "\/Users\/Aske\/Project\/Fitners\/Tuist\/Dependencies\/SwiftPackageManager\/.build\/checkouts\/combine-schedulers\/Sources\/CombineSchedulers\/UIScheduler.swift"
+            },
+            {
+              "path" : "\/Users\/Aske\/Project\/Fitners\/Tuist\/Dependencies\/SwiftPackageManager\/.build\/checkouts\/combine-schedulers\/Sources\/CombineSchedulers\/UnimplementedScheduler.swift"
+            },
+            {
+              "path" : "\/Users\/Aske\/Project\/Fitners\/Tuist\/Dependencies\/SwiftPackageManager\/.build\/checkouts\/combine-schedulers\/Sources\/CombineSchedulers\/ImmediateScheduler.swift"
+            },
+            {
+              "path" : "\/Users\/Aske\/Project\/Fitners\/Tuist\/Dependencies\/SwiftPackageManager\/.build\/checkouts\/combine-schedulers\/Sources\/CombineSchedulers\/AnyScheduler.swift"
+            },
+            {
+              "path" : "\/Users\/Aske\/Project\/Fitners\/Tuist\/Dependencies\/SwiftPackageManager\/.build\/checkouts\/combine-schedulers\/Sources\/CombineSchedulers\/Internal\/Deprecations.swift"
+            },
+            {
+              "path" : "\/Users\/Aske\/Project\/Fitners\/Tuist\/Dependencies\/SwiftPackageManager\/.build\/checkouts\/combine-schedulers\/Sources\/CombineSchedulers\/Concurrency.swift"
+            },
+            {
+              "path" : "\/Users\/Aske\/Project\/Fitners\/Tuist\/Dependencies\/SwiftPackageManager\/.build\/checkouts\/combine-schedulers\/Sources\/CombineSchedulers\/TestScheduler.swift"
+            },
+            {
+              "path" : "\/Users\/Aske\/Project\/Fitners\/Tuist\/Dependencies\/SwiftPackageManager\/.build\/checkouts\/combine-schedulers\/Sources\/CombineSchedulers\/Timer.swift"
+            },
+            {
+              "path" : "\/Users\/Aske\/Project\/Fitners\/Tuist\/Dependencies\/SwiftPackageManager\/.build\/checkouts\/combine-schedulers\/Sources\/CombineSchedulers\/UIKit.swift"
+            },
+            {
+              "path" : "\/Users\/Aske\/Project\/Fitners\/Tuist\/Dependencies\/SwiftPackageManager\/.build\/checkouts\/combine-schedulers\/Sources\/CombineSchedulers\/SwiftUI.swift"
+            },
+            {
+              "path" : "\/Users\/Aske\/Project\/Fitners\/Tuist\/Dependencies\/SwiftPackageManager\/.build\/checkouts\/combine-schedulers\/Sources\/CombineSchedulers\/Internal\/NSRecursiveLock.swift"
+            },
+            {
+              "path" : "\/Users\/Aske\/Project\/Fitners\/Tuist\/Dependencies\/SwiftPackageManager\/.build\/checkouts\/combine-schedulers\/Sources\/CombineSchedulers\/Internal\/Lock.swift"
+            }
+          ],
+          "resources" : [
+
+          ],
+          "product" : "staticFramework",
+          "playgrounds" : [
+
+          ],
+          "productName" : "CombineSchedulers",
+          "filesGroup" : {
+            "group" : {
+              "name" : "Project"
+            }
+          },
+          "rawScriptBuildPhases" : [
+
+          ],
+          "infoPlist" : {
+            "extendingDefault" : {
+              "with" : {
+
+              }
+            }
+          }
+        }
+      ],
+      "settings" : {
+        "base" : {
+
+        },
+        "configurations" : [
+          {
+            "name" : "Debug",
+            "variant" : "debug"
+          },
+          {
+            "settings" : {
+
+            }
+          },
+          {
+            "name" : "Release",
+            "variant" : "release"
+          },
+          {
+            "settings" : {
+
+            }
+          }
+        ],
+        "defaultSettings" : {
+          "recommended" : {
+            "excluding" : [
+
+            ]
+          }
+        }
+      },
+      "path" : "\/Users\/Aske\/Project\/Fitners\/Tuist\/Dependencies\/SwiftPackageManager\/.build\/checkouts\/combine-schedulers",
+      "isExternal" : true,
+      "filesGroup" : {
+        "group" : {
+          "name" : "Project"
+        }
+      },
+      "packages" : [
+
+      ],
+      "xcodeProjPath" : "\/Users\/Aske\/Project\/Fitners\/Tuist\/Dependencies\/SwiftPackageManager\/.build\/checkouts\/combine-schedulers\/combine-schedulers.xcodeproj",
+      "resourceSynthesizers" : [
+        {
+          "template" : {
+            "defaultTemplate" : {
+              "_0" : "Strings"
+            }
+          },
+          "parser" : "strings",
+          "extensions" : [
+            "strings",
+            "stringsdict"
+          ]
+        },
+        {
+          "template" : {
+            "defaultTemplate" : {
+              "_0" : "Assets"
+            }
+          },
+          "parser" : "assets",
+          "extensions" : [
+            "xcassets"
+          ]
+        },
+        {
+          "template" : {
+            "defaultTemplate" : {
+              "_0" : "Plists"
+            }
+          },
+          "parser" : "plists",
+          "extensions" : [
+            "plist"
+          ]
+        },
+        {
+          "template" : {
+            "defaultTemplate" : {
+              "_0" : "Fonts"
+            }
+          },
+          "parser" : "fonts",
+          "extensions" : [
+            "otf",
+            "ttc",
+            "ttf"
+          ]
+        }
+      ],
+      "lastUpgradeCheck" : "99.9.9",
+      "schemes" : [
+
+      ],
+      "name" : "combine-schedulers"
+    },
+    "\/Users\/Aske\/Project\/Fitners\/Tuist\/Dependencies\/SwiftPackageManager\/.build\/checkouts\/swiftui-navigation",
+    {
+      "sourceRootPath" : "\/Users\/Aske\/Project\/Fitners\/Tuist\/Dependencies\/SwiftPackageManager\/.build\/checkouts\/swiftui-navigation",
+      "options" : {
+        "automaticSchemesOptions" : {
+          "disabled" : {
+
+          }
+        },
+        "disableShowEnvironmentVarsInScriptPhases" : false,
+        "disableBundleAccessors" : false,
+        "disableSynthesizedResourceAccessors" : true,
+        "textSettings" : {
+
+        }
+      },
+      "additionalFiles" : [
+
+      ],
+      "targets" : [
+        {
+          "scripts" : [
+
+          ],
+          "deploymentTarget" : {
+            "iOS" : {
+              "_0" : "13.0",
+              "_1" : 3
+            }
+          },
+          "prune" : false,
+          "bundleId" : "-SwiftUINavigationState",
+          "copyFiles" : [
+
+          ],
+          "launchArguments" : [
+
+          ],
+          "dependencies" : [
+            {
+              "project" : {
+                "target" : "CustomDump",
+                "path" : "\/Users\/Aske\/Project\/Fitners\/Tuist\/Dependencies\/SwiftPackageManager\/.build\/checkouts\/swift-custom-dump"
+              }
+            },
+            {
+              "project" : {
+                "target" : "XCTestDynamicOverlay",
+                "path" : "\/Users\/Aske\/Project\/Fitners\/Tuist\/Dependencies\/SwiftPackageManager\/.build\/checkouts\/xctest-dynamic-overlay"
+              }
+            }
+          ],
+          "additionalFiles" : [
+
+          ],
+          "name" : "_SwiftUINavigationState",
+          "settings" : {
+            "base" : {
+              "ALWAYS_SEARCH_USER_PATHS" : {
+                "string" : {
+                  "_0" : "YES"
+                }
+              },
+              "ENABLE_STRICT_OBJC_MSGSEND" : {
+                "string" : {
+                  "_0" : "NO"
+                }
+              },
+              "SWIFT_ACTIVE_COMPILATION_CONDITIONS" : {
+                "array" : {
+                  "_0" : [
+                    "$(inherited)",
+                    "SWIFT_PACKAGE"
+                  ]
+                }
+              },
+              "FRAMEWORK_SEARCH_PATHS" : {
+                "array" : {
+                  "_0" : [
+                    "$(inherited)",
+                    "$(PLATFORM_DIR)\/Developer\/Library\/Frameworks"
+                  ]
+                }
+              },
+              "GCC_WARN_INHIBIT_ALL_WARNINGS" : {
+                "string" : {
+                  "_0" : "YES"
+                }
+              },
+              "GCC_NO_COMMON_BLOCKS" : {
+                "string" : {
+                  "_0" : "NO"
+                }
+              },
+              "USE_HEADERMAP" : {
+                "string" : {
+                  "_0" : "NO"
+                }
+              },
+              "CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER" : {
+                "string" : {
+                  "_0" : "NO"
+                }
+              },
+              "SWIFT_SUPPRESS_WARNINGS" : {
+                "string" : {
+                  "_0" : "YES"
+                }
+              },
+              "CLANG_ENABLE_OBJC_WEAK" : {
+                "string" : {
+                  "_0" : "NO"
+                }
+              },
+              "GCC_PREPROCESSOR_DEFINITIONS" : {
+                "array" : {
+                  "_0" : [
+                    "$(inherited)",
+                    "SWIFT_PACKAGE=1"
+                  ]
+                }
+              }
+            },
+            "configurations" : [
+              {
+                "name" : "Release",
+                "variant" : "release"
+              },
+              {
+                "settings" : {
+
+                }
+              },
+              {
+                "name" : "Debug",
+                "variant" : "debug"
+              },
+              {
+                "settings" : {
+
+                }
+              }
+            ],
+            "defaultSettings" : {
+              "recommended" : {
+                "excluding" : [
+
+                ]
+              }
+            }
+          },
+          "coreDataModels" : [
+
+          ],
+          "platform" : "ios",
+          "environment" : {
+
+          },
+          "sources" : [
+            {
+              "path" : "\/Users\/Aske\/Project\/Fitners\/Tuist\/Dependencies\/SwiftPackageManager\/.build\/checkouts\/swiftui-navigation\/Sources\/_SwiftUINavigationState\/Internal\/RuntimeWarnings.swift"
+            },
+            {
+              "path" : "\/Users\/Aske\/Project\/Fitners\/Tuist\/Dependencies\/SwiftPackageManager\/.build\/checkouts\/swiftui-navigation\/Sources\/_SwiftUINavigationState\/TextState.swift"
+            },
+            {
+              "path" : "\/Users\/Aske\/Project\/Fitners\/Tuist\/Dependencies\/SwiftPackageManager\/.build\/checkouts\/swiftui-navigation\/Sources\/_SwiftUINavigationState\/ConfirmationDialogState.swift"
+            },
+            {
+              "path" : "\/Users\/Aske\/Project\/Fitners\/Tuist\/Dependencies\/SwiftPackageManager\/.build\/checkouts\/swiftui-navigation\/Sources\/_SwiftUINavigationState\/AlertState.swift"
+            },
+            {
+              "path" : "\/Users\/Aske\/Project\/Fitners\/Tuist\/Dependencies\/SwiftPackageManager\/.build\/checkouts\/swiftui-navigation\/Sources\/_SwiftUINavigationState\/Internal\/Deprecations.swift"
+            },
+            {
+              "path" : "\/Users\/Aske\/Project\/Fitners\/Tuist\/Dependencies\/SwiftPackageManager\/.build\/checkouts\/swiftui-navigation\/Sources\/_SwiftUINavigationState\/ButtonStateBuilder.swift"
+            },
+            {
+              "path" : "\/Users\/Aske\/Project\/Fitners\/Tuist\/Dependencies\/SwiftPackageManager\/.build\/checkouts\/swiftui-navigation\/Sources\/_SwiftUINavigationState\/ButtonState.swift"
+            }
+          ],
+          "resources" : [
+
+          ],
+          "product" : "staticFramework",
+          "playgrounds" : [
+
+          ],
+          "productName" : "_SwiftUINavigationState",
+          "filesGroup" : {
+            "group" : {
+              "name" : "Project"
+            }
+          },
+          "rawScriptBuildPhases" : [
+
+          ],
+          "infoPlist" : {
+            "extendingDefault" : {
+              "with" : {
+
+              }
+            }
+          }
+        },
+        {
+          "scripts" : [
+
+          ],
+          "deploymentTarget" : {
+            "iOS" : {
+              "_0" : "13.0",
+              "_1" : 3
+            }
+          },
+          "prune" : false,
+          "bundleId" : "SwiftUINavigation",
+          "copyFiles" : [
+
+          ],
+          "launchArguments" : [
+
+          ],
+          "dependencies" : [
+            {
+              "target" : {
+                "name" : "_SwiftUINavigationState"
+              }
+            },
+            {
+              "project" : {
+                "target" : "CasePaths",
+                "path" : "\/Users\/Aske\/Project\/Fitners\/Tuist\/Dependencies\/SwiftPackageManager\/.build\/checkouts\/swift-case-paths"
+              }
+            }
+          ],
+          "additionalFiles" : [
+
+          ],
+          "name" : "SwiftUINavigation",
+          "settings" : {
+            "base" : {
+              "SWIFT_ACTIVE_COMPILATION_CONDITIONS" : {
+                "array" : {
+                  "_0" : [
+                    "$(inherited)",
+                    "SWIFT_PACKAGE"
+                  ]
+                }
+              },
+              "ENABLE_STRICT_OBJC_MSGSEND" : {
+                "string" : {
+                  "_0" : "NO"
+                }
+              },
+              "ALWAYS_SEARCH_USER_PATHS" : {
+                "string" : {
+                  "_0" : "YES"
+                }
+              },
+              "FRAMEWORK_SEARCH_PATHS" : {
+                "array" : {
+                  "_0" : [
+                    "$(inherited)",
+                    "$(PLATFORM_DIR)\/Developer\/Library\/Frameworks"
+                  ]
+                }
+              },
+              "GCC_WARN_INHIBIT_ALL_WARNINGS" : {
+                "string" : {
+                  "_0" : "YES"
+                }
+              },
+              "USE_HEADERMAP" : {
+                "string" : {
+                  "_0" : "NO"
+                }
+              },
+              "GCC_NO_COMMON_BLOCKS" : {
+                "string" : {
+                  "_0" : "NO"
+                }
+              },
+              "CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER" : {
+                "string" : {
+                  "_0" : "NO"
+                }
+              },
+              "SWIFT_SUPPRESS_WARNINGS" : {
+                "string" : {
+                  "_0" : "YES"
+                }
+              },
+              "CLANG_ENABLE_OBJC_WEAK" : {
+                "string" : {
+                  "_0" : "NO"
+                }
+              },
+              "GCC_PREPROCESSOR_DEFINITIONS" : {
+                "array" : {
+                  "_0" : [
+                    "$(inherited)",
+                    "SWIFT_PACKAGE=1"
+                  ]
+                }
+              }
+            },
+            "configurations" : [
+              {
+                "name" : "Debug",
+                "variant" : "debug"
+              },
+              {
+                "settings" : {
+
+                }
+              },
+              {
+                "name" : "Release",
+                "variant" : "release"
+              },
+              {
+                "settings" : {
+
+                }
+              }
+            ],
+            "defaultSettings" : {
+              "recommended" : {
+                "excluding" : [
+
+                ]
+              }
+            }
+          },
+          "coreDataModels" : [
+
+          ],
+          "platform" : "ios",
+          "environment" : {
+
+          },
+          "sources" : [
+            {
+              "path" : "\/Users\/Aske\/Project\/Fitners\/Tuist\/Dependencies\/SwiftPackageManager\/.build\/checkouts\/swiftui-navigation\/Sources\/SwiftUINavigation\/Documentation.docc"
+            },
+            {
+              "path" : "\/Users\/Aske\/Project\/Fitners\/Tuist\/Dependencies\/SwiftPackageManager\/.build\/checkouts\/swiftui-navigation\/Sources\/SwiftUINavigation\/Sheet.swift"
+            },
+            {
+              "path" : "\/Users\/Aske\/Project\/Fitners\/Tuist\/Dependencies\/SwiftPackageManager\/.build\/checkouts\/swiftui-navigation\/Sources\/SwiftUINavigation\/IfCaseLet.swift"
+            },
+            {
+              "path" : "\/Users\/Aske\/Project\/Fitners\/Tuist\/Dependencies\/SwiftPackageManager\/.build\/checkouts\/swiftui-navigation\/Sources\/SwiftUINavigation\/WithState.swift"
+            },
+            {
+              "path" : "\/Users\/Aske\/Project\/Fitners\/Tuist\/Dependencies\/SwiftPackageManager\/.build\/checkouts\/swiftui-navigation\/Sources\/SwiftUINavigation\/IfLet.swift"
+            },
+            {
+              "path" : "\/Users\/Aske\/Project\/Fitners\/Tuist\/Dependencies\/SwiftPackageManager\/.build\/checkouts\/swiftui-navigation\/Sources\/SwiftUINavigation\/Bind.swift"
+            },
+            {
+              "path" : "\/Users\/Aske\/Project\/Fitners\/Tuist\/Dependencies\/SwiftPackageManager\/.build\/checkouts\/swiftui-navigation\/Sources\/SwiftUINavigation\/ConfirmationDialog.swift"
+            },
+            {
+              "path" : "\/Users\/Aske\/Project\/Fitners\/Tuist\/Dependencies\/SwiftPackageManager\/.build\/checkouts\/swiftui-navigation\/Sources\/SwiftUINavigation\/NavigationLink.swift"
+            },
+            {
+              "path" : "\/Users\/Aske\/Project\/Fitners\/Tuist\/Dependencies\/SwiftPackageManager\/.build\/checkouts\/swiftui-navigation\/Sources\/SwiftUINavigation\/Popover.swift"
+            },
+            {
+              "path" : "\/Users\/Aske\/Project\/Fitners\/Tuist\/Dependencies\/SwiftPackageManager\/.build\/checkouts\/swiftui-navigation\/Sources\/SwiftUINavigation\/NavigationDestination.swift"
+            },
+            {
+              "path" : "\/Users\/Aske\/Project\/Fitners\/Tuist\/Dependencies\/SwiftPackageManager\/.build\/checkouts\/swiftui-navigation\/Sources\/SwiftUINavigation\/FullScreenCover.swift"
+            },
+            {
+              "path" : "\/Users\/Aske\/Project\/Fitners\/Tuist\/Dependencies\/SwiftPackageManager\/.build\/checkouts\/swiftui-navigation\/Sources\/SwiftUINavigation\/Internal\/Binding+Internal.swift"
+            },
+            {
+              "path" : "\/Users\/Aske\/Project\/Fitners\/Tuist\/Dependencies\/SwiftPackageManager\/.build\/checkouts\/swiftui-navigation\/Sources\/SwiftUINavigation\/Switch.swift"
+            },
+            {
+              "path" : "\/Users\/Aske\/Project\/Fitners\/Tuist\/Dependencies\/SwiftPackageManager\/.build\/checkouts\/swiftui-navigation\/Sources\/SwiftUINavigation\/Internal\/Exports.swift"
+            },
+            {
+              "path" : "\/Users\/Aske\/Project\/Fitners\/Tuist\/Dependencies\/SwiftPackageManager\/.build\/checkouts\/swiftui-navigation\/Sources\/SwiftUINavigation\/Internal\/Deprecations.swift"
+            },
+            {
+              "path" : "\/Users\/Aske\/Project\/Fitners\/Tuist\/Dependencies\/SwiftPackageManager\/.build\/checkouts\/swiftui-navigation\/Sources\/SwiftUINavigation\/Binding.swift"
+            },
+            {
+              "path" : "\/Users\/Aske\/Project\/Fitners\/Tuist\/Dependencies\/SwiftPackageManager\/.build\/checkouts\/swiftui-navigation\/Sources\/SwiftUINavigation\/Alert.swift"
+            }
+          ],
+          "resources" : [
+
+          ],
+          "product" : "staticFramework",
+          "playgrounds" : [
+
+          ],
+          "productName" : "SwiftUINavigation",
+          "filesGroup" : {
+            "group" : {
+              "name" : "Project"
+            }
+          },
+          "rawScriptBuildPhases" : [
+
+          ],
+          "infoPlist" : {
+            "extendingDefault" : {
+              "with" : {
+
+              }
+            }
+          }
+        }
+      ],
+      "settings" : {
+        "base" : {
+
+        },
+        "configurations" : [
+          {
+            "name" : "Debug",
+            "variant" : "debug"
+          },
+          {
+            "settings" : {
+
+            }
+          },
+          {
+            "name" : "Release",
+            "variant" : "release"
+          },
+          {
+            "settings" : {
+
+            }
+          }
+        ],
+        "defaultSettings" : {
+          "recommended" : {
+            "excluding" : [
+
+            ]
+          }
+        }
+      },
+      "path" : "\/Users\/Aske\/Project\/Fitners\/Tuist\/Dependencies\/SwiftPackageManager\/.build\/checkouts\/swiftui-navigation",
+      "isExternal" : true,
+      "filesGroup" : {
+        "group" : {
+          "name" : "Project"
+        }
+      },
+      "packages" : [
+
+      ],
+      "xcodeProjPath" : "\/Users\/Aske\/Project\/Fitners\/Tuist\/Dependencies\/SwiftPackageManager\/.build\/checkouts\/swiftui-navigation\/swiftui-navigation.xcodeproj",
+      "resourceSynthesizers" : [
+        {
+          "template" : {
+            "defaultTemplate" : {
+              "_0" : "Strings"
+            }
+          },
+          "parser" : "strings",
+          "extensions" : [
+            "stringsdict",
+            "strings"
+          ]
+        },
+        {
+          "template" : {
+            "defaultTemplate" : {
+              "_0" : "Assets"
+            }
+          },
+          "parser" : "assets",
+          "extensions" : [
+            "xcassets"
+          ]
+        },
+        {
+          "template" : {
+            "defaultTemplate" : {
+              "_0" : "Plists"
+            }
+          },
+          "parser" : "plists",
+          "extensions" : [
+            "plist"
+          ]
+        },
+        {
+          "template" : {
+            "defaultTemplate" : {
+              "_0" : "Fonts"
+            }
+          },
+          "parser" : "fonts",
+          "extensions" : [
+            "ttc",
+            "otf",
+            "ttf"
+          ]
+        }
+      ],
+      "lastUpgradeCheck" : "99.9.9",
+      "schemes" : [
+
+      ],
+      "name" : "swiftui-navigation"
+    },
+    "\/Users\/Aske\/Project\/Fitners\/Tuist\/Dependencies\/SwiftPackageManager\/.build\/checkouts\/swift-identified-collections",
+    {
+      "sourceRootPath" : "\/Users\/Aske\/Project\/Fitners\/Tuist\/Dependencies\/SwiftPackageManager\/.build\/checkouts\/swift-identified-collections",
+      "options" : {
+        "automaticSchemesOptions" : {
+          "disabled" : {
+
+          }
+        },
+        "disableShowEnvironmentVarsInScriptPhases" : false,
+        "disableBundleAccessors" : false,
+        "disableSynthesizedResourceAccessors" : true,
+        "textSettings" : {
+
+        }
+      },
+      "additionalFiles" : [
+
+      ],
+      "targets" : [
+        {
+          "scripts" : [
+
+          ],
+          "deploymentTarget" : {
+            "iOS" : {
+              "_0" : "11.0",
+              "_1" : 3
+            }
+          },
+          "prune" : false,
+          "bundleId" : "IdentifiedCollections",
+          "copyFiles" : [
+
+          ],
+          "launchArguments" : [
+
+          ],
+          "dependencies" : [
+            {
+              "project" : {
+                "target" : "OrderedCollections",
+                "path" : "\/Users\/Aske\/Project\/Fitners\/Tuist\/Dependencies\/SwiftPackageManager\/.build\/checkouts\/swift-collections"
+              }
+            }
+          ],
+          "additionalFiles" : [
+
+          ],
+          "name" : "IdentifiedCollections",
+          "settings" : {
+            "base" : {
+              "SWIFT_ACTIVE_COMPILATION_CONDITIONS" : {
+                "array" : {
+                  "_0" : [
+                    "$(inherited)",
+                    "SWIFT_PACKAGE"
+                  ]
+                }
+              },
+              "ENABLE_STRICT_OBJC_MSGSEND" : {
+                "string" : {
+                  "_0" : "NO"
+                }
+              },
+              "ALWAYS_SEARCH_USER_PATHS" : {
+                "string" : {
+                  "_0" : "YES"
+                }
+              },
+              "FRAMEWORK_SEARCH_PATHS" : {
+                "array" : {
+                  "_0" : [
+                    "$(inherited)",
+                    "$(PLATFORM_DIR)\/Developer\/Library\/Frameworks"
+                  ]
+                }
+              },
+              "GCC_WARN_INHIBIT_ALL_WARNINGS" : {
+                "string" : {
+                  "_0" : "YES"
+                }
+              },
+              "USE_HEADERMAP" : {
+                "string" : {
+                  "_0" : "NO"
+                }
+              },
+              "GCC_NO_COMMON_BLOCKS" : {
+                "string" : {
+                  "_0" : "NO"
+                }
+              },
+              "CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER" : {
+                "string" : {
+                  "_0" : "NO"
+                }
+              },
+              "SWIFT_SUPPRESS_WARNINGS" : {
+                "string" : {
+                  "_0" : "YES"
+                }
+              },
+              "CLANG_ENABLE_OBJC_WEAK" : {
+                "string" : {
+                  "_0" : "NO"
+                }
+              },
+              "GCC_PREPROCESSOR_DEFINITIONS" : {
+                "array" : {
+                  "_0" : [
+                    "$(inherited)",
+                    "SWIFT_PACKAGE=1"
+                  ]
+                }
+              }
+            },
+            "configurations" : [
+              {
+                "name" : "Debug",
+                "variant" : "debug"
+              },
+              {
+                "settings" : {
+
+                }
+              },
+              {
+                "name" : "Release",
+                "variant" : "release"
+              },
+              {
+                "settings" : {
+
+                }
+              }
+            ],
+            "defaultSettings" : {
+              "recommended" : {
+                "excluding" : [
+
+                ]
+              }
+            }
+          },
+          "coreDataModels" : [
+
+          ],
+          "platform" : "ios",
+          "environment" : {
+
+          },
+          "sources" : [
+            {
+              "path" : "\/Users\/Aske\/Project\/Fitners\/Tuist\/Dependencies\/SwiftPackageManager\/.build\/checkouts\/swift-identified-collections\/Sources\/IdentifiedCollections\/IdentifiedArray\/IdentifiedArray+MutableCollection.swift"
+            },
+            {
+              "path" : "\/Users\/Aske\/Project\/Fitners\/Tuist\/Dependencies\/SwiftPackageManager\/.build\/checkouts\/swift-identified-collections\/Sources\/IdentifiedCollections\/IdentifiedArray\/IdentifiedArray+Sendable.swift"
+            },
+            {
+              "path" : "\/Users\/Aske\/Project\/Fitners\/Tuist\/Dependencies\/SwiftPackageManager\/.build\/checkouts\/swift-identified-collections\/Sources\/IdentifiedCollections\/IdentifiedArray\/IdentifiedArray+CustomDebugStringConvertible.swift"
+            },
+            {
+              "path" : "\/Users\/Aske\/Project\/Fitners\/Tuist\/Dependencies\/SwiftPackageManager\/.build\/checkouts\/swift-identified-collections\/Sources\/IdentifiedCollections\/IdentifiedArray\/IdentifiedArray+CustomReflectable.swift"
+            },
+            {
+              "path" : "\/Users\/Aske\/Project\/Fitners\/Tuist\/Dependencies\/SwiftPackageManager\/.build\/checkouts\/swift-identified-collections\/Sources\/IdentifiedCollections\/IdentifiedArray\/IdentifiedArray+Initializers.swift"
+            },
+            {
+              "path" : "\/Users\/Aske\/Project\/Fitners\/Tuist\/Dependencies\/SwiftPackageManager\/.build\/checkouts\/swift-identified-collections\/Sources\/IdentifiedCollections\/Documentation.docc"
+            },
+            {
+              "path" : "\/Users\/Aske\/Project\/Fitners\/Tuist\/Dependencies\/SwiftPackageManager\/.build\/checkouts\/swift-identified-collections\/Sources\/IdentifiedCollections\/Identified\/Identified.swift"
+            },
+            {
+              "path" : "\/Users\/Aske\/Project\/Fitners\/Tuist\/Dependencies\/SwiftPackageManager\/.build\/checkouts\/swift-identified-collections\/Sources\/IdentifiedCollections\/IdentifiedArray\/IdentifiedArray+RangeReplaceableCollection.swift"
+            },
+            {
+              "path" : "\/Users\/Aske\/Project\/Fitners\/Tuist\/Dependencies\/SwiftPackageManager\/.build\/checkouts\/swift-identified-collections\/Sources\/IdentifiedCollections\/IdentifiedArray\/IdentifiedArray+Codable.swift"
+            },
+            {
+              "path" : "\/Users\/Aske\/Project\/Fitners\/Tuist\/Dependencies\/SwiftPackageManager\/.build\/checkouts\/swift-identified-collections\/Sources\/IdentifiedCollections\/IdentifiedArray\/IdentifiedArray+CustomStringConvertible.swift"
+            },
+            {
+              "path" : "\/Users\/Aske\/Project\/Fitners\/Tuist\/Dependencies\/SwiftPackageManager\/.build\/checkouts\/swift-identified-collections\/Sources\/IdentifiedCollections\/IdentifiedArray\/IdentifiedArray+Collection.swift"
+            },
+            {
+              "path" : "\/Users\/Aske\/Project\/Fitners\/Tuist\/Dependencies\/SwiftPackageManager\/.build\/checkouts\/swift-identified-collections\/Sources\/IdentifiedCollections\/IdentifiedArray\/IdentifiedArray.swift"
+            },
+            {
+              "path" : "\/Users\/Aske\/Project\/Fitners\/Tuist\/Dependencies\/SwiftPackageManager\/.build\/checkouts\/swift-identified-collections\/Sources\/IdentifiedCollections\/IdentifiedArray\/IdentifiedArray+ExpressibleByArrayLiteral.swift"
+            },
+            {
+              "path" : "\/Users\/Aske\/Project\/Fitners\/Tuist\/Dependencies\/SwiftPackageManager\/.build\/checkouts\/swift-identified-collections\/Sources\/IdentifiedCollections\/IdentifiedArray\/IdentifiedArray+Equatable.swift"
+            },
+            {
+              "path" : "\/Users\/Aske\/Project\/Fitners\/Tuist\/Dependencies\/SwiftPackageManager\/.build\/checkouts\/swift-identified-collections\/Sources\/IdentifiedCollections\/IdentifiedArray\/IdentifiedArray+Insertions.swift"
+            },
+            {
+              "path" : "\/Users\/Aske\/Project\/Fitners\/Tuist\/Dependencies\/SwiftPackageManager\/.build\/checkouts\/swift-identified-collections\/Sources\/IdentifiedCollections\/IdentifiedArray\/IdentifiedArray+CollectionAlgorithms.swift"
+            },
+            {
+              "path" : "\/Users\/Aske\/Project\/Fitners\/Tuist\/Dependencies\/SwiftPackageManager\/.build\/checkouts\/swift-identified-collections\/Sources\/IdentifiedCollections\/IdentifiedArray\/IdentifiedArray+Hashable.swift"
+            },
+            {
+              "path" : "\/Users\/Aske\/Project\/Fitners\/Tuist\/Dependencies\/SwiftPackageManager\/.build\/checkouts\/swift-identified-collections\/Sources\/IdentifiedCollections\/IdentifiedArray\/IdentifiedArray+RandomAccessCollection.swift"
+            }
+          ],
+          "resources" : [
+
+          ],
+          "product" : "staticFramework",
+          "playgrounds" : [
+
+          ],
+          "productName" : "IdentifiedCollections",
+          "filesGroup" : {
+            "group" : {
+              "name" : "Project"
+            }
+          },
+          "rawScriptBuildPhases" : [
+
+          ],
+          "infoPlist" : {
+            "extendingDefault" : {
+              "with" : {
+
+              }
+            }
+          }
+        }
+      ],
+      "settings" : {
+        "base" : {
+
+        },
+        "configurations" : [
+          {
+            "name" : "Debug",
+            "variant" : "debug"
+          },
+          {
+            "settings" : {
+
+            }
+          },
+          {
+            "name" : "Release",
+            "variant" : "release"
+          },
+          {
+            "settings" : {
+
+            }
+          }
+        ],
+        "defaultSettings" : {
+          "recommended" : {
+            "excluding" : [
+
+            ]
+          }
+        }
+      },
+      "path" : "\/Users\/Aske\/Project\/Fitners\/Tuist\/Dependencies\/SwiftPackageManager\/.build\/checkouts\/swift-identified-collections",
+      "isExternal" : true,
+      "filesGroup" : {
+        "group" : {
+          "name" : "Project"
+        }
+      },
+      "packages" : [
+
+      ],
+      "xcodeProjPath" : "\/Users\/Aske\/Project\/Fitners\/Tuist\/Dependencies\/SwiftPackageManager\/.build\/checkouts\/swift-identified-collections\/swift-identified-collections.xcodeproj",
+      "resourceSynthesizers" : [
+        {
+          "template" : {
+            "defaultTemplate" : {
+              "_0" : "Strings"
+            }
+          },
+          "parser" : "strings",
+          "extensions" : [
+            "strings",
+            "stringsdict"
+          ]
+        },
+        {
+          "template" : {
+            "defaultTemplate" : {
+              "_0" : "Assets"
+            }
+          },
+          "parser" : "assets",
+          "extensions" : [
+            "xcassets"
+          ]
+        },
+        {
+          "template" : {
+            "defaultTemplate" : {
+              "_0" : "Plists"
+            }
+          },
+          "parser" : "plists",
+          "extensions" : [
+            "plist"
+          ]
+        },
+        {
+          "template" : {
+            "defaultTemplate" : {
+              "_0" : "Fonts"
+            }
+          },
+          "parser" : "fonts",
+          "extensions" : [
+            "ttc",
+            "otf",
+            "ttf"
+          ]
+        }
+      ],
+      "lastUpgradeCheck" : "99.9.9",
+      "schemes" : [
+
+      ],
+      "name" : "swift-identified-collections"
+    },
+    "\/Users\/Aske\/Project\/Fitners\/Tuist\/Dependencies\/SwiftPackageManager\/.build\/checkouts\/xctest-dynamic-overlay",
+    {
+      "sourceRootPath" : "\/Users\/Aske\/Project\/Fitners\/Tuist\/Dependencies\/SwiftPackageManager\/.build\/checkouts\/xctest-dynamic-overlay",
+      "options" : {
+        "automaticSchemesOptions" : {
+          "disabled" : {
+
+          }
+        },
+        "disableShowEnvironmentVarsInScriptPhases" : false,
+        "disableBundleAccessors" : false,
+        "disableSynthesizedResourceAccessors" : true,
+        "textSettings" : {
+
+        }
+      },
+      "additionalFiles" : [
+
+      ],
+      "targets" : [
+        {
+          "scripts" : [
+
+          ],
+          "deploymentTarget" : {
+            "iOS" : {
+              "_0" : "13.0",
+              "_1" : 3
+            }
+          },
+          "prune" : false,
+          "bundleId" : "XCTestDynamicOverlay",
+          "copyFiles" : [
+
+          ],
+          "launchArguments" : [
+
+          ],
+          "dependencies" : [
+
+          ],
+          "additionalFiles" : [
+
+          ],
+          "name" : "XCTestDynamicOverlay",
+          "settings" : {
+            "base" : {
+              "SWIFT_ACTIVE_COMPILATION_CONDITIONS" : {
+                "array" : {
+                  "_0" : [
+                    "$(inherited)",
+                    "SWIFT_PACKAGE"
+                  ]
+                }
+              },
+              "CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER" : {
+                "string" : {
+                  "_0" : "NO"
+                }
+              },
+              "ENABLE_STRICT_OBJC_MSGSEND" : {
+                "string" : {
+                  "_0" : "NO"
+                }
+              },
+              "FRAMEWORK_SEARCH_PATHS" : {
+                "array" : {
+                  "_0" : [
+                    "$(inherited)",
+                    "$(PLATFORM_DIR)\/Developer\/Library\/Frameworks"
+                  ]
+                }
+              },
+              "GCC_WARN_INHIBIT_ALL_WARNINGS" : {
+                "string" : {
+                  "_0" : "YES"
+                }
+              },
+              "GCC_NO_COMMON_BLOCKS" : {
+                "string" : {
+                  "_0" : "NO"
+                }
+              },
+              "ALWAYS_SEARCH_USER_PATHS" : {
+                "string" : {
+                  "_0" : "YES"
+                }
+              },
+              "USE_HEADERMAP" : {
+                "string" : {
+                  "_0" : "NO"
+                }
+              },
+              "SWIFT_SUPPRESS_WARNINGS" : {
+                "string" : {
+                  "_0" : "YES"
+                }
+              },
+              "CLANG_ENABLE_OBJC_WEAK" : {
+                "string" : {
+                  "_0" : "NO"
+                }
+              },
+              "GCC_PREPROCESSOR_DEFINITIONS" : {
+                "array" : {
+                  "_0" : [
+                    "$(inherited)",
+                    "SWIFT_PACKAGE=1"
+                  ]
+                }
+              }
+            },
+            "configurations" : [
+              {
+                "name" : "Debug",
+                "variant" : "debug"
+              },
+              {
+                "settings" : {
+
+                }
+              },
+              {
+                "name" : "Release",
+                "variant" : "release"
+              },
+              {
+                "settings" : {
+
+                }
+              }
+            ],
+            "defaultSettings" : {
+              "recommended" : {
+                "excluding" : [
+
+                ]
+              }
+            }
+          },
+          "coreDataModels" : [
+
+          ],
+          "platform" : "ios",
+          "environment" : {
+
+          },
+          "sources" : [
+            {
+              "path" : "\/Users\/Aske\/Project\/Fitners\/Tuist\/Dependencies\/SwiftPackageManager\/.build\/checkouts\/xctest-dynamic-overlay\/Sources\/XCTestDynamicOverlay\/Internal\/GeneratePlaceholder.swift"
+            },
+            {
+              "path" : "\/Users\/Aske\/Project\/Fitners\/Tuist\/Dependencies\/SwiftPackageManager\/.build\/checkouts\/xctest-dynamic-overlay\/Sources\/XCTestDynamicOverlay\/XCTFail.swift"
+            },
+            {
+              "path" : "\/Users\/Aske\/Project\/Fitners\/Tuist\/Dependencies\/SwiftPackageManager\/.build\/checkouts\/xctest-dynamic-overlay\/Sources\/XCTestDynamicOverlay\/Internal\/RuntimeWarnings.swift"
+            },
+            {
+              "path" : "\/Users\/Aske\/Project\/Fitners\/Tuist\/Dependencies\/SwiftPackageManager\/.build\/checkouts\/xctest-dynamic-overlay\/Sources\/XCTestDynamicOverlay\/Internal\/XCTCurrentTestCase.swift"
+            },
+            {
+              "path" : "\/Users\/Aske\/Project\/Fitners\/Tuist\/Dependencies\/SwiftPackageManager\/.build\/checkouts\/xctest-dynamic-overlay\/Sources\/XCTestDynamicOverlay\/XCTIsTesting.swift"
+            },
+            {
+              "path" : "\/Users\/Aske\/Project\/Fitners\/Tuist\/Dependencies\/SwiftPackageManager\/.build\/checkouts\/xctest-dynamic-overlay\/Sources\/XCTestDynamicOverlay\/Internal\/DefaultInitializable.swift"
+            },
+            {
+              "path" : "\/Users\/Aske\/Project\/Fitners\/Tuist\/Dependencies\/SwiftPackageManager\/.build\/checkouts\/xctest-dynamic-overlay\/Sources\/XCTestDynamicOverlay\/Internal\/Deprecations.swift"
+            },
+            {
+              "path" : "\/Users\/Aske\/Project\/Fitners\/Tuist\/Dependencies\/SwiftPackageManager\/.build\/checkouts\/xctest-dynamic-overlay\/Sources\/XCTestDynamicOverlay\/Unimplemented.swift"
+            },
+            {
+              "path" : "\/Users\/Aske\/Project\/Fitners\/Tuist\/Dependencies\/SwiftPackageManager\/.build\/checkouts\/xctest-dynamic-overlay\/Sources\/XCTestDynamicOverlay\/Documentation.docc"
+            }
+          ],
+          "resources" : [
+
+          ],
+          "product" : "staticFramework",
+          "playgrounds" : [
+
+          ],
+          "productName" : "XCTestDynamicOverlay",
+          "filesGroup" : {
+            "group" : {
+              "name" : "Project"
+            }
+          },
+          "rawScriptBuildPhases" : [
+
+          ],
+          "infoPlist" : {
+            "extendingDefault" : {
+              "with" : {
+
+              }
+            }
+          }
+        }
+      ],
+      "settings" : {
+        "base" : {
+
+        },
+        "configurations" : [
+          {
+            "name" : "Debug",
+            "variant" : "debug"
+          },
+          {
+            "settings" : {
+
+            }
+          },
+          {
+            "name" : "Release",
+            "variant" : "release"
+          },
+          {
+            "settings" : {
+
+            }
+          }
+        ],
+        "defaultSettings" : {
+          "recommended" : {
+            "excluding" : [
+
+            ]
+          }
+        }
+      },
+      "path" : "\/Users\/Aske\/Project\/Fitners\/Tuist\/Dependencies\/SwiftPackageManager\/.build\/checkouts\/xctest-dynamic-overlay",
+      "isExternal" : true,
+      "filesGroup" : {
+        "group" : {
+          "name" : "Project"
+        }
+      },
+      "packages" : [
+
+      ],
+      "xcodeProjPath" : "\/Users\/Aske\/Project\/Fitners\/Tuist\/Dependencies\/SwiftPackageManager\/.build\/checkouts\/xctest-dynamic-overlay\/xctest-dynamic-overlay.xcodeproj",
+      "resourceSynthesizers" : [
+        {
+          "template" : {
+            "defaultTemplate" : {
+              "_0" : "Strings"
+            }
+          },
+          "parser" : "strings",
+          "extensions" : [
+            "stringsdict",
+            "strings"
+          ]
+        },
+        {
+          "template" : {
+            "defaultTemplate" : {
+              "_0" : "Assets"
+            }
+          },
+          "parser" : "assets",
+          "extensions" : [
+            "xcassets"
+          ]
+        },
+        {
+          "template" : {
+            "defaultTemplate" : {
+              "_0" : "Plists"
+            }
+          },
+          "parser" : "plists",
+          "extensions" : [
+            "plist"
+          ]
+        },
+        {
+          "template" : {
+            "defaultTemplate" : {
+              "_0" : "Fonts"
+            }
+          },
+          "parser" : "fonts",
+          "extensions" : [
+            "ttc",
+            "ttf",
+            "otf"
+          ]
+        }
+      ],
+      "lastUpgradeCheck" : "99.9.9",
+      "schemes" : [
+
+      ],
+      "name" : "xctest-dynamic-overlay"
+    },
+    "\/Users\/Aske\/Project\/Fitners\/Tuist\/Dependencies\/SwiftPackageManager\/.build\/checkouts\/swift-clocks",
+    {
+      "sourceRootPath" : "\/Users\/Aske\/Project\/Fitners\/Tuist\/Dependencies\/SwiftPackageManager\/.build\/checkouts\/swift-clocks",
+      "options" : {
+        "automaticSchemesOptions" : {
+          "disabled" : {
+
+          }
+        },
+        "disableShowEnvironmentVarsInScriptPhases" : false,
+        "disableBundleAccessors" : false,
+        "disableSynthesizedResourceAccessors" : true,
+        "textSettings" : {
+
+        }
+      },
+      "additionalFiles" : [
+
+      ],
+      "targets" : [
+        {
+          "scripts" : [
+
+          ],
+          "deploymentTarget" : {
+            "iOS" : {
+              "_0" : "13.0",
+              "_1" : 3
+            }
+          },
+          "prune" : false,
+          "bundleId" : "Clocks",
+          "copyFiles" : [
+
+          ],
+          "launchArguments" : [
+
+          ],
+          "dependencies" : [
+            {
+              "project" : {
+                "target" : "XCTestDynamicOverlay",
+                "path" : "\/Users\/Aske\/Project\/Fitners\/Tuist\/Dependencies\/SwiftPackageManager\/.build\/checkouts\/xctest-dynamic-overlay"
+              }
+            }
+          ],
+          "additionalFiles" : [
+
+          ],
+          "name" : "Clocks",
+          "settings" : {
+            "base" : {
+              "SWIFT_ACTIVE_COMPILATION_CONDITIONS" : {
+                "array" : {
+                  "_0" : [
+                    "$(inherited)",
+                    "SWIFT_PACKAGE"
+                  ]
+                }
+              },
+              "CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER" : {
+                "string" : {
+                  "_0" : "NO"
+                }
+              },
+              "ENABLE_STRICT_OBJC_MSGSEND" : {
+                "string" : {
+                  "_0" : "NO"
+                }
+              },
+              "FRAMEWORK_SEARCH_PATHS" : {
+                "array" : {
+                  "_0" : [
+                    "$(inherited)",
+                    "$(PLATFORM_DIR)\/Developer\/Library\/Frameworks"
+                  ]
+                }
+              },
+              "ALWAYS_SEARCH_USER_PATHS" : {
+                "string" : {
+                  "_0" : "YES"
+                }
+              },
+              "USE_HEADERMAP" : {
+                "string" : {
+                  "_0" : "NO"
+                }
+              },
+              "GCC_NO_COMMON_BLOCKS" : {
+                "string" : {
+                  "_0" : "NO"
+                }
+              },
+              "GCC_WARN_INHIBIT_ALL_WARNINGS" : {
+                "string" : {
+                  "_0" : "YES"
+                }
+              },
+              "SWIFT_SUPPRESS_WARNINGS" : {
+                "string" : {
+                  "_0" : "YES"
+                }
+              },
+              "CLANG_ENABLE_OBJC_WEAK" : {
+                "string" : {
+                  "_0" : "NO"
+                }
+              },
+              "GCC_PREPROCESSOR_DEFINITIONS" : {
+                "array" : {
+                  "_0" : [
+                    "$(inherited)",
+                    "SWIFT_PACKAGE=1"
+                  ]
+                }
+              }
+            },
+            "configurations" : [
+              {
+                "name" : "Release",
+                "variant" : "release"
+              },
+              {
+                "settings" : {
+
+                }
+              },
+              {
+                "name" : "Debug",
+                "variant" : "debug"
+              },
+              {
+                "settings" : {
+
+                }
+              }
+            ],
+            "defaultSettings" : {
+              "recommended" : {
+                "excluding" : [
+
+                ]
+              }
+            }
+          },
+          "coreDataModels" : [
+
+          ],
+          "platform" : "ios",
+          "environment" : {
+
+          },
+          "sources" : [
+            {
+              "path" : "\/Users\/Aske\/Project\/Fitners\/Tuist\/Dependencies\/SwiftPackageManager\/.build\/checkouts\/swift-clocks\/Sources\/Clocks\/TestClock.swift"
+            },
+            {
+              "path" : "\/Users\/Aske\/Project\/Fitners\/Tuist\/Dependencies\/SwiftPackageManager\/.build\/checkouts\/swift-clocks\/Sources\/Clocks\/Internal\/Lock.swift"
+            },
+            {
+              "path" : "\/Users\/Aske\/Project\/Fitners\/Tuist\/Dependencies\/SwiftPackageManager\/.build\/checkouts\/swift-clocks\/Sources\/Clocks\/Documentation.docc"
+            },
+            {
+              "path" : "\/Users\/Aske\/Project\/Fitners\/Tuist\/Dependencies\/SwiftPackageManager\/.build\/checkouts\/swift-clocks\/Sources\/Clocks\/UnimplementedClock.swift"
+            },
+            {
+              "path" : "\/Users\/Aske\/Project\/Fitners\/Tuist\/Dependencies\/SwiftPackageManager\/.build\/checkouts\/swift-clocks\/Sources\/Clocks\/Internal\/_AsyncTimerSequence.swift"
+            },
+            {
+              "path" : "\/Users\/Aske\/Project\/Fitners\/Tuist\/Dependencies\/SwiftPackageManager\/.build\/checkouts\/swift-clocks\/Sources\/Clocks\/SwiftUI.swift"
+            },
+            {
+              "path" : "\/Users\/Aske\/Project\/Fitners\/Tuist\/Dependencies\/SwiftPackageManager\/.build\/checkouts\/swift-clocks\/Sources\/Clocks\/Timer.swift"
+            },
+            {
+              "path" : "\/Users\/Aske\/Project\/Fitners\/Tuist\/Dependencies\/SwiftPackageManager\/.build\/checkouts\/swift-clocks\/Sources\/Clocks\/Shims.swift"
+            },
+            {
+              "path" : "\/Users\/Aske\/Project\/Fitners\/Tuist\/Dependencies\/SwiftPackageManager\/.build\/checkouts\/swift-clocks\/Sources\/Clocks\/AnyClock.swift"
+            },
+            {
+              "path" : "\/Users\/Aske\/Project\/Fitners\/Tuist\/Dependencies\/SwiftPackageManager\/.build\/checkouts\/swift-clocks\/Sources\/Clocks\/Internal\/Yield.swift"
+            },
+            {
+              "path" : "\/Users\/Aske\/Project\/Fitners\/Tuist\/Dependencies\/SwiftPackageManager\/.build\/checkouts\/swift-clocks\/Sources\/Clocks\/ImmediateClock.swift"
+            }
+          ],
+          "resources" : [
+
+          ],
+          "product" : "staticFramework",
+          "playgrounds" : [
+
+          ],
+          "productName" : "Clocks",
+          "filesGroup" : {
+            "group" : {
+              "name" : "Project"
+            }
+          },
+          "rawScriptBuildPhases" : [
+
+          ],
+          "infoPlist" : {
+            "extendingDefault" : {
+              "with" : {
+
+              }
+            }
+          }
+        }
+      ],
+      "settings" : {
+        "base" : {
+
+        },
+        "configurations" : [
+          {
+            "name" : "Debug",
+            "variant" : "debug"
+          },
+          {
+            "settings" : {
+
+            }
+          },
+          {
+            "name" : "Release",
+            "variant" : "release"
+          },
+          {
+            "settings" : {
+
+            }
+          }
+        ],
+        "defaultSettings" : {
+          "recommended" : {
+            "excluding" : [
+
+            ]
+          }
+        }
+      },
+      "path" : "\/Users\/Aske\/Project\/Fitners\/Tuist\/Dependencies\/SwiftPackageManager\/.build\/checkouts\/swift-clocks",
+      "isExternal" : true,
+      "filesGroup" : {
+        "group" : {
+          "name" : "Project"
+        }
+      },
+      "packages" : [
+
+      ],
+      "xcodeProjPath" : "\/Users\/Aske\/Project\/Fitners\/Tuist\/Dependencies\/SwiftPackageManager\/.build\/checkouts\/swift-clocks\/swift-clocks.xcodeproj",
+      "resourceSynthesizers" : [
+        {
+          "template" : {
+            "defaultTemplate" : {
+              "_0" : "Strings"
+            }
+          },
+          "parser" : "strings",
+          "extensions" : [
+            "stringsdict",
+            "strings"
+          ]
+        },
+        {
+          "template" : {
+            "defaultTemplate" : {
+              "_0" : "Assets"
+            }
+          },
+          "parser" : "assets",
+          "extensions" : [
+            "xcassets"
+          ]
+        },
+        {
+          "template" : {
+            "defaultTemplate" : {
+              "_0" : "Plists"
+            }
+          },
+          "parser" : "plists",
+          "extensions" : [
+            "plist"
+          ]
+        },
+        {
+          "template" : {
+            "defaultTemplate" : {
+              "_0" : "Fonts"
+            }
+          },
+          "parser" : "fonts",
+          "extensions" : [
+            "otf",
+            "ttc",
+            "ttf"
+          ]
+        }
+      ],
+      "lastUpgradeCheck" : "99.9.9",
+      "schemes" : [
+
+      ],
+      "name" : "swift-clocks"
+    },
+    "\/Users\/Aske\/Project\/Fitners\/Tuist\/Dependencies\/SwiftPackageManager\/.build\/checkouts\/swift-custom-dump",
+    {
+      "sourceRootPath" : "\/Users\/Aske\/Project\/Fitners\/Tuist\/Dependencies\/SwiftPackageManager\/.build\/checkouts\/swift-custom-dump",
+      "options" : {
+        "automaticSchemesOptions" : {
+          "disabled" : {
+
+          }
+        },
+        "disableShowEnvironmentVarsInScriptPhases" : false,
+        "disableBundleAccessors" : false,
+        "disableSynthesizedResourceAccessors" : true,
+        "textSettings" : {
+
+        }
+      },
+      "additionalFiles" : [
+
+      ],
+      "targets" : [
+        {
+          "scripts" : [
+
+          ],
+          "deploymentTarget" : {
+            "iOS" : {
+              "_0" : "13.0",
+              "_1" : 3
+            }
+          },
+          "prune" : false,
+          "bundleId" : "CustomDump",
+          "copyFiles" : [
+
+          ],
+          "launchArguments" : [
+
+          ],
+          "dependencies" : [
+            {
+              "project" : {
+                "target" : "XCTestDynamicOverlay",
+                "path" : "\/Users\/Aske\/Project\/Fitners\/Tuist\/Dependencies\/SwiftPackageManager\/.build\/checkouts\/xctest-dynamic-overlay"
+              }
+            }
+          ],
+          "additionalFiles" : [
+
+          ],
+          "name" : "CustomDump",
+          "settings" : {
+            "base" : {
+              "SWIFT_ACTIVE_COMPILATION_CONDITIONS" : {
+                "array" : {
+                  "_0" : [
+                    "$(inherited)",
+                    "SWIFT_PACKAGE"
+                  ]
+                }
+              },
+              "ALWAYS_SEARCH_USER_PATHS" : {
+                "string" : {
+                  "_0" : "YES"
+                }
+              },
+              "ENABLE_STRICT_OBJC_MSGSEND" : {
+                "string" : {
+                  "_0" : "NO"
+                }
+              },
+              "FRAMEWORK_SEARCH_PATHS" : {
+                "array" : {
+                  "_0" : [
+                    "$(inherited)",
+                    "$(PLATFORM_DIR)\/Developer\/Library\/Frameworks"
+                  ]
+                }
+              },
+              "CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER" : {
+                "string" : {
+                  "_0" : "NO"
+                }
+              },
+              "USE_HEADERMAP" : {
+                "string" : {
+                  "_0" : "NO"
+                }
+              },
+              "GCC_NO_COMMON_BLOCKS" : {
+                "string" : {
+                  "_0" : "NO"
+                }
+              },
+              "GCC_WARN_INHIBIT_ALL_WARNINGS" : {
+                "string" : {
+                  "_0" : "YES"
+                }
+              },
+              "SWIFT_SUPPRESS_WARNINGS" : {
+                "string" : {
+                  "_0" : "YES"
+                }
+              },
+              "CLANG_ENABLE_OBJC_WEAK" : {
+                "string" : {
+                  "_0" : "NO"
+                }
+              },
+              "GCC_PREPROCESSOR_DEFINITIONS" : {
+                "array" : {
+                  "_0" : [
+                    "$(inherited)",
+                    "SWIFT_PACKAGE=1"
+                  ]
+                }
+              }
+            },
+            "configurations" : [
+              {
+                "name" : "Release",
+                "variant" : "release"
+              },
+              {
+                "settings" : {
+
+                }
+              },
+              {
+                "name" : "Debug",
+                "variant" : "debug"
+              },
+              {
+                "settings" : {
+
+                }
+              }
+            ],
+            "defaultSettings" : {
+              "recommended" : {
+                "excluding" : [
+
+                ]
+              }
+            }
+          },
+          "coreDataModels" : [
+
+          ],
+          "platform" : "ios",
+          "environment" : {
+
+          },
+          "sources" : [
+            {
+              "path" : "\/Users\/Aske\/Project\/Fitners\/Tuist\/Dependencies\/SwiftPackageManager\/.build\/checkouts\/swift-custom-dump\/Sources\/CustomDump\/Conformances\/CoreMotion.swift"
+            },
+            {
+              "path" : "\/Users\/Aske\/Project\/Fitners\/Tuist\/Dependencies\/SwiftPackageManager\/.build\/checkouts\/swift-custom-dump\/Sources\/CustomDump\/Conformances\/Photos.swift"
+            },
+            {
+              "path" : "\/Users\/Aske\/Project\/Fitners\/Tuist\/Dependencies\/SwiftPackageManager\/.build\/checkouts\/swift-custom-dump\/Sources\/CustomDump\/Conformances\/KeyPath.swift"
+            },
+            {
+              "path" : "\/Users\/Aske\/Project\/Fitners\/Tuist\/Dependencies\/SwiftPackageManager\/.build\/checkouts\/swift-custom-dump\/Sources\/CustomDump\/Internal\/String.swift"
+            },
+            {
+              "path" : "\/Users\/Aske\/Project\/Fitners\/Tuist\/Dependencies\/SwiftPackageManager\/.build\/checkouts\/swift-custom-dump\/Sources\/CustomDump\/CustomDumpRepresentable.swift"
+            },
+            {
+              "path" : "\/Users\/Aske\/Project\/Fitners\/Tuist\/Dependencies\/SwiftPackageManager\/.build\/checkouts\/swift-custom-dump\/Sources\/CustomDump\/Diff.swift"
+            },
+            {
+              "path" : "\/Users\/Aske\/Project\/Fitners\/Tuist\/Dependencies\/SwiftPackageManager\/.build\/checkouts\/swift-custom-dump\/Sources\/CustomDump\/Dump.swift"
+            },
+            {
+              "path" : "\/Users\/Aske\/Project\/Fitners\/Tuist\/Dependencies\/SwiftPackageManager\/.build\/checkouts\/swift-custom-dump\/Sources\/CustomDump\/Conformances\/UserNotificationsUI.swift"
+            },
+            {
+              "path" : "\/Users\/Aske\/Project\/Fitners\/Tuist\/Dependencies\/SwiftPackageManager\/.build\/checkouts\/swift-custom-dump\/Sources\/CustomDump\/Internal\/AnyType.swift"
+            },
+            {
+              "path" : "\/Users\/Aske\/Project\/Fitners\/Tuist\/Dependencies\/SwiftPackageManager\/.build\/checkouts\/swift-custom-dump\/Sources\/CustomDump\/Conformances\/UserNotifications.swift"
+            },
+            {
+              "path" : "\/Users\/Aske\/Project\/Fitners\/Tuist\/Dependencies\/SwiftPackageManager\/.build\/checkouts\/swift-custom-dump\/Sources\/CustomDump\/Internal\/CollectionDifference.swift"
+            },
+            {
+              "path" : "\/Users\/Aske\/Project\/Fitners\/Tuist\/Dependencies\/SwiftPackageManager\/.build\/checkouts\/swift-custom-dump\/Sources\/CustomDump\/Conformances\/UIKit.swift"
+            },
+            {
+              "path" : "\/Users\/Aske\/Project\/Fitners\/Tuist\/Dependencies\/SwiftPackageManager\/.build\/checkouts\/swift-custom-dump\/Sources\/CustomDump\/CustomDumpReflectable.swift"
+            },
+            {
+              "path" : "\/Users\/Aske\/Project\/Fitners\/Tuist\/Dependencies\/SwiftPackageManager\/.build\/checkouts\/swift-custom-dump\/Sources\/CustomDump\/Conformances\/Foundation.swift"
+            },
+            {
+              "path" : "\/Users\/Aske\/Project\/Fitners\/Tuist\/Dependencies\/SwiftPackageManager\/.build\/checkouts\/swift-custom-dump\/Sources\/CustomDump\/Conformances\/CoreLocation.swift"
+            },
+            {
+              "path" : "\/Users\/Aske\/Project\/Fitners\/Tuist\/Dependencies\/SwiftPackageManager\/.build\/checkouts\/swift-custom-dump\/Sources\/CustomDump\/Internal\/Mirror.swift"
+            },
+            {
+              "path" : "\/Users\/Aske\/Project\/Fitners\/Tuist\/Dependencies\/SwiftPackageManager\/.build\/checkouts\/swift-custom-dump\/Sources\/CustomDump\/Conformances\/GameKit.swift"
+            },
+            {
+              "path" : "\/Users\/Aske\/Project\/Fitners\/Tuist\/Dependencies\/SwiftPackageManager\/.build\/checkouts\/swift-custom-dump\/Sources\/CustomDump\/Conformances\/StoreKit.swift"
+            },
+            {
+              "path" : "\/Users\/Aske\/Project\/Fitners\/Tuist\/Dependencies\/SwiftPackageManager\/.build\/checkouts\/swift-custom-dump\/Sources\/CustomDump\/Conformances\/SwiftUI.swift"
+            },
+            {
+              "path" : "\/Users\/Aske\/Project\/Fitners\/Tuist\/Dependencies\/SwiftPackageManager\/.build\/checkouts\/swift-custom-dump\/Sources\/CustomDump\/CustomDumpStringConvertible.swift"
+            },
+            {
+              "path" : "\/Users\/Aske\/Project\/Fitners\/Tuist\/Dependencies\/SwiftPackageManager\/.build\/checkouts\/swift-custom-dump\/Sources\/CustomDump\/Conformances\/Speech.swift"
+            },
+            {
+              "path" : "\/Users\/Aske\/Project\/Fitners\/Tuist\/Dependencies\/SwiftPackageManager\/.build\/checkouts\/swift-custom-dump\/Sources\/CustomDump\/Conformances\/CoreImage.swift"
+            },
+            {
+              "path" : "\/Users\/Aske\/Project\/Fitners\/Tuist\/Dependencies\/SwiftPackageManager\/.build\/checkouts\/swift-custom-dump\/Sources\/CustomDump\/Conformances\/Swift.swift"
+            },
+            {
+              "path" : "\/Users\/Aske\/Project\/Fitners\/Tuist\/Dependencies\/SwiftPackageManager\/.build\/checkouts\/swift-custom-dump\/Sources\/CustomDump\/Internal\/Box.swift"
+            },
+            {
+              "path" : "\/Users\/Aske\/Project\/Fitners\/Tuist\/Dependencies\/SwiftPackageManager\/.build\/checkouts\/swift-custom-dump\/Sources\/CustomDump\/XCTAssertNoDifference.swift"
+            }
+          ],
+          "resources" : [
+
+          ],
+          "product" : "staticFramework",
+          "playgrounds" : [
+
+          ],
+          "productName" : "CustomDump",
+          "filesGroup" : {
+            "group" : {
+              "name" : "Project"
+            }
+          },
+          "rawScriptBuildPhases" : [
+
+          ],
+          "infoPlist" : {
+            "extendingDefault" : {
+              "with" : {
+
+              }
+            }
+          }
+        }
+      ],
+      "settings" : {
+        "base" : {
+
+        },
+        "configurations" : [
+          {
+            "name" : "Debug",
+            "variant" : "debug"
+          },
+          {
+            "settings" : {
+
+            }
+          },
+          {
+            "name" : "Release",
+            "variant" : "release"
+          },
+          {
+            "settings" : {
+
+            }
+          }
+        ],
+        "defaultSettings" : {
+          "recommended" : {
+            "excluding" : [
+
+            ]
+          }
+        }
+      },
+      "path" : "\/Users\/Aske\/Project\/Fitners\/Tuist\/Dependencies\/SwiftPackageManager\/.build\/checkouts\/swift-custom-dump",
+      "isExternal" : true,
+      "filesGroup" : {
+        "group" : {
+          "name" : "Project"
+        }
+      },
+      "packages" : [
+
+      ],
+      "xcodeProjPath" : "\/Users\/Aske\/Project\/Fitners\/Tuist\/Dependencies\/SwiftPackageManager\/.build\/checkouts\/swift-custom-dump\/swift-custom-dump.xcodeproj",
+      "resourceSynthesizers" : [
+        {
+          "template" : {
+            "defaultTemplate" : {
+              "_0" : "Strings"
+            }
+          },
+          "parser" : "strings",
+          "extensions" : [
+            "stringsdict",
+            "strings"
+          ]
+        },
+        {
+          "template" : {
+            "defaultTemplate" : {
+              "_0" : "Assets"
+            }
+          },
+          "parser" : "assets",
+          "extensions" : [
+            "xcassets"
+          ]
+        },
+        {
+          "template" : {
+            "defaultTemplate" : {
+              "_0" : "Plists"
+            }
+          },
+          "parser" : "plists",
+          "extensions" : [
+            "plist"
+          ]
+        },
+        {
+          "template" : {
+            "defaultTemplate" : {
+              "_0" : "Fonts"
+            }
+          },
+          "parser" : "fonts",
+          "extensions" : [
+            "ttf",
+            "ttc",
+            "otf"
+          ]
+        }
+      ],
+      "lastUpgradeCheck" : "99.9.9",
+      "schemes" : [
+
+      ],
+      "name" : "swift-custom-dump"
+    },
+    "\/Users\/Aske\/Project\/Fitners\/Tuist\/Dependencies\/SwiftPackageManager\/.build\/checkouts\/SnapKit",
+    {
+      "sourceRootPath" : "\/Users\/Aske\/Project\/Fitners\/Tuist\/Dependencies\/SwiftPackageManager\/.build\/checkouts\/SnapKit",
+      "options" : {
+        "automaticSchemesOptions" : {
+          "disabled" : {
+
+          }
+        },
+        "disableShowEnvironmentVarsInScriptPhases" : false,
+        "disableBundleAccessors" : false,
+        "disableSynthesizedResourceAccessors" : true,
+        "textSettings" : {
+
+        }
+      },
+      "additionalFiles" : [
+
+      ],
+      "targets" : [
+        {
+          "scripts" : [
+
+          ],
+          "deploymentTarget" : {
+            "iOS" : {
+              "_0" : "11.0",
+              "_1" : 3
+            }
+          },
+          "prune" : false,
+          "bundleId" : "SnapKit",
+          "copyFiles" : [
+
+          ],
+          "launchArguments" : [
+
+          ],
+          "dependencies" : [
+
+          ],
+          "additionalFiles" : [
+
+          ],
+          "name" : "SnapKit",
+          "settings" : {
+            "base" : {
+              "ALWAYS_SEARCH_USER_PATHS" : {
+                "string" : {
+                  "_0" : "YES"
+                }
+              },
+              "CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER" : {
+                "string" : {
+                  "_0" : "NO"
+                }
+              },
+              "ENABLE_STRICT_OBJC_MSGSEND" : {
+                "string" : {
+                  "_0" : "NO"
+                }
+              },
+              "GCC_WARN_INHIBIT_ALL_WARNINGS" : {
+                "string" : {
+                  "_0" : "YES"
+                }
+              },
+              "FRAMEWORK_SEARCH_PATHS" : {
+                "array" : {
+                  "_0" : [
+                    "$(inherited)",
+                    "$(PLATFORM_DIR)\/Developer\/Library\/Frameworks"
+                  ]
+                }
+              },
+              "USE_HEADERMAP" : {
+                "string" : {
+                  "_0" : "NO"
+                }
+              },
+              "GCC_NO_COMMON_BLOCKS" : {
+                "string" : {
+                  "_0" : "NO"
+                }
+              },
+              "SWIFT_ACTIVE_COMPILATION_CONDITIONS" : {
+                "array" : {
+                  "_0" : [
+                    "$(inherited)",
+                    "SWIFT_PACKAGE"
+                  ]
+                }
+              },
+              "SWIFT_SUPPRESS_WARNINGS" : {
+                "string" : {
+                  "_0" : "YES"
+                }
+              },
+              "CLANG_ENABLE_OBJC_WEAK" : {
+                "string" : {
+                  "_0" : "NO"
+                }
+              },
+              "GCC_PREPROCESSOR_DEFINITIONS" : {
+                "array" : {
+                  "_0" : [
+                    "$(inherited)",
+                    "SWIFT_PACKAGE=1"
+                  ]
+                }
+              }
+            },
+            "configurations" : [
+              {
+                "name" : "Debug",
+                "variant" : "debug"
+              },
+              {
+                "settings" : {
+
+                }
+              },
+              {
+                "name" : "Release",
+                "variant" : "release"
+              },
+              {
+                "settings" : {
+
+                }
+              }
+            ],
+            "defaultSettings" : {
+              "recommended" : {
+                "excluding" : [
+
+                ]
+              }
+            }
+          },
+          "coreDataModels" : [
+
+          ],
+          "platform" : "ios",
+          "environment" : {
+
+          },
+          "sources" : [
+            {
+              "path" : "\/Users\/Aske\/Project\/Fitners\/Tuist\/Dependencies\/SwiftPackageManager\/.build\/checkouts\/SnapKit\/Source\/ConstraintMakerRelatable.swift"
+            },
+            {
+              "path" : "\/Users\/Aske\/Project\/Fitners\/Tuist\/Dependencies\/SwiftPackageManager\/.build\/checkouts\/SnapKit\/Source\/ConstraintLayoutSupportDSL.swift"
+            },
+            {
+              "path" : "\/Users\/Aske\/Project\/Fitners\/Tuist\/Dependencies\/SwiftPackageManager\/.build\/checkouts\/SnapKit\/Source\/ConstraintRelation.swift"
+            },
+            {
+              "path" : "\/Users\/Aske\/Project\/Fitners\/Tuist\/Dependencies\/SwiftPackageManager\/.build\/checkouts\/SnapKit\/Source\/UILayoutSupport+Extensions.swift"
+            },
+            {
+              "path" : "\/Users\/Aske\/Project\/Fitners\/Tuist\/Dependencies\/SwiftPackageManager\/.build\/checkouts\/SnapKit\/Source\/ConstraintAttributes.swift"
+            },
+            {
+              "path" : "\/Users\/Aske\/Project\/Fitners\/Tuist\/Dependencies\/SwiftPackageManager\/.build\/checkouts\/SnapKit\/Source\/ConstraintLayoutSupport.swift"
+            },
+            {
+              "path" : "\/Users\/Aske\/Project\/Fitners\/Tuist\/Dependencies\/SwiftPackageManager\/.build\/checkouts\/SnapKit\/Source\/ConstraintInsetTarget.swift"
+            },
+            {
+              "path" : "\/Users\/Aske\/Project\/Fitners\/Tuist\/Dependencies\/SwiftPackageManager\/.build\/checkouts\/SnapKit\/Source\/ConstraintView+Extensions.swift"
+            },
+            {
+              "path" : "\/Users\/Aske\/Project\/Fitners\/Tuist\/Dependencies\/SwiftPackageManager\/.build\/checkouts\/SnapKit\/Source\/ConstraintInsets.swift"
+            },
+            {
+              "path" : "\/Users\/Aske\/Project\/Fitners\/Tuist\/Dependencies\/SwiftPackageManager\/.build\/checkouts\/SnapKit\/Source\/ConstraintDSL.swift"
+            },
+            {
+              "path" : "\/Users\/Aske\/Project\/Fitners\/Tuist\/Dependencies\/SwiftPackageManager\/.build\/checkouts\/SnapKit\/Source\/LayoutConstraint.swift"
+            },
+            {
+              "path" : "\/Users\/Aske\/Project\/Fitners\/Tuist\/Dependencies\/SwiftPackageManager\/.build\/checkouts\/SnapKit\/Source\/ConstraintMultiplierTarget.swift"
+            },
+            {
+              "path" : "\/Users\/Aske\/Project\/Fitners\/Tuist\/Dependencies\/SwiftPackageManager\/.build\/checkouts\/SnapKit\/Source\/ConstraintViewDSL.swift"
+            },
+            {
+              "path" : "\/Users\/Aske\/Project\/Fitners\/Tuist\/Dependencies\/SwiftPackageManager\/.build\/checkouts\/SnapKit\/Source\/ConstraintLayoutGuideDSL.swift"
+            },
+            {
+              "path" : "\/Users\/Aske\/Project\/Fitners\/Tuist\/Dependencies\/SwiftPackageManager\/.build\/checkouts\/SnapKit\/Source\/ConstraintItem.swift"
+            },
+            {
+              "path" : "\/Users\/Aske\/Project\/Fitners\/Tuist\/Dependencies\/SwiftPackageManager\/.build\/checkouts\/SnapKit\/Source\/ConstraintMaker.swift"
+            },
+            {
+              "path" : "\/Users\/Aske\/Project\/Fitners\/Tuist\/Dependencies\/SwiftPackageManager\/.build\/checkouts\/SnapKit\/Source\/ConstraintView.swift"
+            },
+            {
+              "path" : "\/Users\/Aske\/Project\/Fitners\/Tuist\/Dependencies\/SwiftPackageManager\/.build\/checkouts\/SnapKit\/Source\/ConstraintDescription.swift"
+            },
+            {
+              "path" : "\/Users\/Aske\/Project\/Fitners\/Tuist\/Dependencies\/SwiftPackageManager\/.build\/checkouts\/SnapKit\/Source\/ConstraintLayoutGuide+Extensions.swift"
+            },
+            {
+              "path" : "\/Users\/Aske\/Project\/Fitners\/Tuist\/Dependencies\/SwiftPackageManager\/.build\/checkouts\/SnapKit\/Source\/LayoutConstraintItem.swift"
+            },
+            {
+              "path" : "\/Users\/Aske\/Project\/Fitners\/Tuist\/Dependencies\/SwiftPackageManager\/.build\/checkouts\/SnapKit\/Source\/ConstraintRelatableTarget.swift"
+            },
+            {
+              "path" : "\/Users\/Aske\/Project\/Fitners\/Tuist\/Dependencies\/SwiftPackageManager\/.build\/checkouts\/SnapKit\/Source\/ConstraintLayoutGuide.swift"
+            },
+            {
+              "path" : "\/Users\/Aske\/Project\/Fitners\/Tuist\/Dependencies\/SwiftPackageManager\/.build\/checkouts\/SnapKit\/Source\/ConstraintDirectionalInsets.swift"
+            },
+            {
+              "path" : "\/Users\/Aske\/Project\/Fitners\/Tuist\/Dependencies\/SwiftPackageManager\/.build\/checkouts\/SnapKit\/Source\/Debugging.swift"
+            },
+            {
+              "path" : "\/Users\/Aske\/Project\/Fitners\/Tuist\/Dependencies\/SwiftPackageManager\/.build\/checkouts\/SnapKit\/Source\/ConstraintPriorityTarget.swift"
+            },
+            {
+              "path" : "\/Users\/Aske\/Project\/Fitners\/Tuist\/Dependencies\/SwiftPackageManager\/.build\/checkouts\/SnapKit\/Source\/ConstraintMakerExtendable.swift"
+            },
+            {
+              "path" : "\/Users\/Aske\/Project\/Fitners\/Tuist\/Dependencies\/SwiftPackageManager\/.build\/checkouts\/SnapKit\/Source\/ConstraintMakerPriortizable.swift"
+            },
+            {
+              "path" : "\/Users\/Aske\/Project\/Fitners\/Tuist\/Dependencies\/SwiftPackageManager\/.build\/checkouts\/SnapKit\/Source\/ConstraintMakerFinalizable.swift"
+            },
+            {
+              "path" : "\/Users\/Aske\/Project\/Fitners\/Tuist\/Dependencies\/SwiftPackageManager\/.build\/checkouts\/SnapKit\/Source\/Typealiases.swift"
+            },
+            {
+              "path" : "\/Users\/Aske\/Project\/Fitners\/Tuist\/Dependencies\/SwiftPackageManager\/.build\/checkouts\/SnapKit\/Source\/ConstraintOffsetTarget.swift"
+            },
+            {
+              "path" : "\/Users\/Aske\/Project\/Fitners\/Tuist\/Dependencies\/SwiftPackageManager\/.build\/checkouts\/SnapKit\/Source\/ConstraintConstantTarget.swift"
+            },
+            {
+              "path" : "\/Users\/Aske\/Project\/Fitners\/Tuist\/Dependencies\/SwiftPackageManager\/.build\/checkouts\/SnapKit\/Source\/ConstraintPriority.swift"
+            },
+            {
+              "path" : "\/Users\/Aske\/Project\/Fitners\/Tuist\/Dependencies\/SwiftPackageManager\/.build\/checkouts\/SnapKit\/Source\/ConstraintMakerEditable.swift"
+            },
+            {
+              "path" : "\/Users\/Aske\/Project\/Fitners\/Tuist\/Dependencies\/SwiftPackageManager\/.build\/checkouts\/SnapKit\/Source\/ConstraintDirectionalInsetTarget.swift"
+            },
+            {
+              "path" : "\/Users\/Aske\/Project\/Fitners\/Tuist\/Dependencies\/SwiftPackageManager\/.build\/checkouts\/SnapKit\/Source\/ConstraintConfig.swift"
+            },
+            {
+              "path" : "\/Users\/Aske\/Project\/Fitners\/Tuist\/Dependencies\/SwiftPackageManager\/.build\/checkouts\/SnapKit\/Source\/Constraint.swift"
+            }
+          ],
+          "resources" : [
+
+          ],
+          "product" : "staticFramework",
+          "playgrounds" : [
+
+          ],
+          "productName" : "SnapKit",
+          "filesGroup" : {
+            "group" : {
+              "name" : "Project"
+            }
+          },
+          "rawScriptBuildPhases" : [
+
+          ],
+          "infoPlist" : {
+            "extendingDefault" : {
+              "with" : {
+
+              }
+            }
+          }
+        }
+      ],
+      "settings" : {
+        "base" : {
+          "SWIFT_VERSION" : {
+            "string" : {
+              "_0" : "5.0.0"
+            }
+          }
+        },
+        "configurations" : [
+          {
+            "name" : "Debug",
+            "variant" : "debug"
+          },
+          {
+            "settings" : {
+
+            }
+          },
+          {
+            "name" : "Release",
+            "variant" : "release"
+          },
+          {
+            "settings" : {
+
+            }
+          }
+        ],
+        "defaultSettings" : {
+          "recommended" : {
+            "excluding" : [
+
+            ]
+          }
+        }
+      },
+      "path" : "\/Users\/Aske\/Project\/Fitners\/Tuist\/Dependencies\/SwiftPackageManager\/.build\/checkouts\/SnapKit",
+      "isExternal" : true,
+      "filesGroup" : {
+        "group" : {
+          "name" : "Project"
+        }
+      },
+      "packages" : [
+
+      ],
+      "xcodeProjPath" : "\/Users\/Aske\/Project\/Fitners\/Tuist\/Dependencies\/SwiftPackageManager\/.build\/checkouts\/SnapKit\/SnapKit.xcodeproj",
+      "resourceSynthesizers" : [
+        {
+          "template" : {
+            "defaultTemplate" : {
+              "_0" : "Strings"
+            }
+          },
+          "parser" : "strings",
+          "extensions" : [
+            "strings",
+            "stringsdict"
+          ]
+        },
+        {
+          "template" : {
+            "defaultTemplate" : {
+              "_0" : "Assets"
+            }
+          },
+          "parser" : "assets",
+          "extensions" : [
+            "xcassets"
+          ]
+        },
+        {
+          "template" : {
+            "defaultTemplate" : {
+              "_0" : "Plists"
+            }
+          },
+          "parser" : "plists",
+          "extensions" : [
+            "plist"
+          ]
+        },
+        {
+          "template" : {
+            "defaultTemplate" : {
+              "_0" : "Fonts"
+            }
+          },
+          "parser" : "fonts",
+          "extensions" : [
+            "ttc",
+            "otf",
+            "ttf"
+          ]
+        }
+      ],
+      "lastUpgradeCheck" : "99.9.9",
+      "schemes" : [
+
+      ],
+      "name" : "SnapKit"
+    },
+    "\/Users\/Aske\/Project\/Fitners\/Tuist\/Dependencies\/SwiftPackageManager\/.build\/checkouts\/lottie-spm",
+    {
+      "sourceRootPath" : "\/Users\/Aske\/Project\/Fitners\/Tuist\/Dependencies\/SwiftPackageManager\/.build\/checkouts\/lottie-spm",
+      "options" : {
+        "automaticSchemesOptions" : {
+          "disabled" : {
+
+          }
+        },
+        "disableShowEnvironmentVarsInScriptPhases" : false,
+        "disableBundleAccessors" : false,
+        "disableSynthesizedResourceAccessors" : true,
+        "textSettings" : {
+
+        }
+      },
+      "additionalFiles" : [
+
+      ],
+      "targets" : [
+        {
+          "scripts" : [
+
+          ],
+          "deploymentTarget" : {
+            "iOS" : {
+              "_0" : "11.0",
+              "_1" : 3
+            }
+          },
+          "prune" : false,
+          "bundleId" : "-LottieStub",
+          "copyFiles" : [
+
+          ],
+          "launchArguments" : [
+
+          ],
+          "dependencies" : [
+
+          ],
+          "additionalFiles" : [
+
+          ],
+          "name" : "_LottieStub",
+          "settings" : {
+            "base" : {
+              "SWIFT_ACTIVE_COMPILATION_CONDITIONS" : {
+                "array" : {
+                  "_0" : [
+                    "$(inherited)",
+                    "SWIFT_PACKAGE"
+                  ]
+                }
+              },
+              "ALWAYS_SEARCH_USER_PATHS" : {
+                "string" : {
+                  "_0" : "YES"
+                }
+              },
+              "ENABLE_STRICT_OBJC_MSGSEND" : {
+                "string" : {
+                  "_0" : "NO"
+                }
+              },
+              "CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER" : {
+                "string" : {
+                  "_0" : "NO"
+                }
+              },
+              "FRAMEWORK_SEARCH_PATHS" : {
+                "array" : {
+                  "_0" : [
+                    "$(inherited)",
+                    "$(PLATFORM_DIR)\/Developer\/Library\/Frameworks"
+                  ]
+                }
+              },
+              "USE_HEADERMAP" : {
+                "string" : {
+                  "_0" : "NO"
+                }
+              },
+              "GCC_NO_COMMON_BLOCKS" : {
+                "string" : {
+                  "_0" : "NO"
+                }
+              },
+              "GCC_WARN_INHIBIT_ALL_WARNINGS" : {
+                "string" : {
+                  "_0" : "YES"
+                }
+              },
+              "SWIFT_SUPPRESS_WARNINGS" : {
+                "string" : {
+                  "_0" : "YES"
+                }
+              },
+              "CLANG_ENABLE_OBJC_WEAK" : {
+                "string" : {
+                  "_0" : "NO"
+                }
+              },
+              "GCC_PREPROCESSOR_DEFINITIONS" : {
+                "array" : {
+                  "_0" : [
+                    "$(inherited)",
+                    "SWIFT_PACKAGE=1"
+                  ]
+                }
+              }
+            },
+            "configurations" : [
+              {
+                "name" : "Release",
+                "variant" : "release"
+              },
+              {
+                "settings" : {
+
+                }
+              },
+              {
+                "name" : "Debug",
+                "variant" : "debug"
+              },
+              {
+                "settings" : {
+
+                }
+              }
+            ],
+            "defaultSettings" : {
+              "recommended" : {
+                "excluding" : [
+
+                ]
+              }
+            }
+          },
+          "coreDataModels" : [
+
+          ],
+          "platform" : "ios",
+          "environment" : {
+
+          },
+          "sources" : [
+            {
+              "path" : "\/Users\/Aske\/Project\/Fitners\/Tuist\/Dependencies\/SwiftPackageManager\/.build\/checkouts\/lottie-spm\/Sources\/_LottieStub\/Stub.swift"
+            }
+          ],
+          "resources" : [
+
+          ],
+          "product" : "staticFramework",
+          "playgrounds" : [
+
+          ],
+          "productName" : "_LottieStub",
+          "filesGroup" : {
+            "group" : {
+              "name" : "Project"
+            }
+          },
+          "rawScriptBuildPhases" : [
+
+          ],
+          "infoPlist" : {
+            "extendingDefault" : {
+              "with" : {
+
+              }
+            }
+          }
+        }
+      ],
+      "settings" : {
+        "base" : {
+
+        },
+        "configurations" : [
+          {
+            "name" : "Release",
+            "variant" : "release"
+          },
+          {
+            "settings" : {
+
+            }
+          },
+          {
+            "name" : "Debug",
+            "variant" : "debug"
+          },
+          {
+            "settings" : {
+
+            }
+          }
+        ],
+        "defaultSettings" : {
+          "recommended" : {
+            "excluding" : [
+
+            ]
+          }
+        }
+      },
+      "path" : "\/Users\/Aske\/Project\/Fitners\/Tuist\/Dependencies\/SwiftPackageManager\/.build\/checkouts\/lottie-spm",
+      "isExternal" : true,
+      "filesGroup" : {
+        "group" : {
+          "name" : "Project"
+        }
+      },
+      "packages" : [
+
+      ],
+      "xcodeProjPath" : "\/Users\/Aske\/Project\/Fitners\/Tuist\/Dependencies\/SwiftPackageManager\/.build\/checkouts\/lottie-spm\/Lottie.xcodeproj",
+      "resourceSynthesizers" : [
+        {
+          "template" : {
+            "defaultTemplate" : {
+              "_0" : "Strings"
+            }
+          },
+          "parser" : "strings",
+          "extensions" : [
+            "stringsdict",
+            "strings"
+          ]
+        },
+        {
+          "template" : {
+            "defaultTemplate" : {
+              "_0" : "Assets"
+            }
+          },
+          "parser" : "assets",
+          "extensions" : [
+            "xcassets"
+          ]
+        },
+        {
+          "template" : {
+            "defaultTemplate" : {
+              "_0" : "Plists"
+            }
+          },
+          "parser" : "plists",
+          "extensions" : [
+            "plist"
+          ]
+        },
+        {
+          "template" : {
+            "defaultTemplate" : {
+              "_0" : "Fonts"
+            }
+          },
+          "parser" : "fonts",
+          "extensions" : [
+            "ttf",
+            "ttc",
+            "otf"
+          ]
+        }
+      ],
+      "lastUpgradeCheck" : "99.9.9",
+      "schemes" : [
+
+      ],
+      "name" : "Lottie"
+    },
+    "\/Users\/Aske\/Project\/Fitners\/Tuist\/Dependencies\/SwiftPackageManager\/.build\/checkouts\/swift-case-paths",
+    {
+      "sourceRootPath" : "\/Users\/Aske\/Project\/Fitners\/Tuist\/Dependencies\/SwiftPackageManager\/.build\/checkouts\/swift-case-paths",
+      "options" : {
+        "automaticSchemesOptions" : {
+          "disabled" : {
+
+          }
+        },
+        "disableShowEnvironmentVarsInScriptPhases" : false,
+        "disableBundleAccessors" : false,
+        "disableSynthesizedResourceAccessors" : true,
+        "textSettings" : {
+
+        }
+      },
+      "additionalFiles" : [
+
+      ],
+      "targets" : [
+        {
+          "scripts" : [
+
+          ],
+          "deploymentTarget" : {
+            "iOS" : {
+              "_0" : "13.0",
+              "_1" : 3
+            }
+          },
+          "prune" : false,
+          "bundleId" : "CasePaths",
+          "copyFiles" : [
+
+          ],
+          "launchArguments" : [
+
+          ],
+          "dependencies" : [
+            {
+              "project" : {
+                "target" : "XCTestDynamicOverlay",
+                "path" : "\/Users\/Aske\/Project\/Fitners\/Tuist\/Dependencies\/SwiftPackageManager\/.build\/checkouts\/xctest-dynamic-overlay"
+              }
+            }
+          ],
+          "additionalFiles" : [
+
+          ],
+          "name" : "CasePaths",
+          "settings" : {
+            "base" : {
+              "ALWAYS_SEARCH_USER_PATHS" : {
+                "string" : {
+                  "_0" : "YES"
+                }
+              },
+              "CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER" : {
+                "string" : {
+                  "_0" : "NO"
+                }
+              },
+              "ENABLE_STRICT_OBJC_MSGSEND" : {
+                "string" : {
+                  "_0" : "NO"
+                }
+              },
+              "FRAMEWORK_SEARCH_PATHS" : {
+                "array" : {
+                  "_0" : [
+                    "$(inherited)",
+                    "$(PLATFORM_DIR)\/Developer\/Library\/Frameworks"
+                  ]
+                }
+              },
+              "SWIFT_ACTIVE_COMPILATION_CONDITIONS" : {
+                "array" : {
+                  "_0" : [
+                    "$(inherited)",
+                    "SWIFT_PACKAGE"
+                  ]
+                }
+              },
+              "USE_HEADERMAP" : {
+                "string" : {
+                  "_0" : "NO"
+                }
+              },
+              "GCC_NO_COMMON_BLOCKS" : {
+                "string" : {
+                  "_0" : "NO"
+                }
+              },
+              "GCC_WARN_INHIBIT_ALL_WARNINGS" : {
+                "string" : {
+                  "_0" : "YES"
+                }
+              },
+              "SWIFT_SUPPRESS_WARNINGS" : {
+                "string" : {
+                  "_0" : "YES"
+                }
+              },
+              "CLANG_ENABLE_OBJC_WEAK" : {
+                "string" : {
+                  "_0" : "NO"
+                }
+              },
+              "GCC_PREPROCESSOR_DEFINITIONS" : {
+                "array" : {
+                  "_0" : [
+                    "$(inherited)",
+                    "SWIFT_PACKAGE=1"
+                  ]
+                }
+              }
+            },
+            "configurations" : [
+              {
+                "name" : "Debug",
+                "variant" : "debug"
+              },
+              {
+                "settings" : {
+
+                }
+              },
+              {
+                "name" : "Release",
+                "variant" : "release"
+              },
+              {
+                "settings" : {
+
+                }
+              }
+            ],
+            "defaultSettings" : {
+              "recommended" : {
+                "excluding" : [
+
+                ]
+              }
+            }
+          },
+          "coreDataModels" : [
+
+          ],
+          "platform" : "ios",
+          "environment" : {
+
+          },
+          "sources" : [
+            {
+              "path" : "\/Users\/Aske\/Project\/Fitners\/Tuist\/Dependencies\/SwiftPackageManager\/.build\/checkouts\/swift-case-paths\/Sources\/CasePaths\/XCTUnwrap.swift"
+            },
+            {
+              "path" : "\/Users\/Aske\/Project\/Fitners\/Tuist\/Dependencies\/SwiftPackageManager\/.build\/checkouts\/swift-case-paths\/Sources\/CasePaths\/Internal\/OpenExistential.swift"
+            },
+            {
+              "path" : "\/Users\/Aske\/Project\/Fitners\/Tuist\/Dependencies\/SwiftPackageManager\/.build\/checkouts\/swift-case-paths\/Sources\/CasePaths\/CasePaths.swift"
+            },
+            {
+              "path" : "\/Users\/Aske\/Project\/Fitners\/Tuist\/Dependencies\/SwiftPackageManager\/.build\/checkouts\/swift-case-paths\/Sources\/CasePaths\/Operators.swift"
+            },
+            {
+              "path" : "\/Users\/Aske\/Project\/Fitners\/Tuist\/Dependencies\/SwiftPackageManager\/.build\/checkouts\/swift-case-paths\/Sources\/CasePaths\/EnumReflection.swift"
+            },
+            {
+              "path" : "\/Users\/Aske\/Project\/Fitners\/Tuist\/Dependencies\/SwiftPackageManager\/.build\/checkouts\/swift-case-paths\/Sources\/CasePaths\/CasePath.swift"
+            }
+          ],
+          "resources" : [
+
+          ],
+          "product" : "staticFramework",
+          "playgrounds" : [
+
+          ],
+          "productName" : "CasePaths",
+          "filesGroup" : {
+            "group" : {
+              "name" : "Project"
+            }
+          },
+          "rawScriptBuildPhases" : [
+
+          ],
+          "infoPlist" : {
+            "extendingDefault" : {
+              "with" : {
+
+              }
+            }
+          }
+        }
+      ],
+      "settings" : {
+        "base" : {
+
+        },
+        "configurations" : [
+          {
+            "name" : "Release",
+            "variant" : "release"
+          },
+          {
+            "settings" : {
+
+            }
+          },
+          {
+            "name" : "Debug",
+            "variant" : "debug"
+          },
+          {
+            "settings" : {
+
+            }
+          }
+        ],
+        "defaultSettings" : {
+          "recommended" : {
+            "excluding" : [
+
+            ]
+          }
+        }
+      },
+      "path" : "\/Users\/Aske\/Project\/Fitners\/Tuist\/Dependencies\/SwiftPackageManager\/.build\/checkouts\/swift-case-paths",
+      "isExternal" : true,
+      "filesGroup" : {
+        "group" : {
+          "name" : "Project"
+        }
+      },
+      "packages" : [
+
+      ],
+      "xcodeProjPath" : "\/Users\/Aske\/Project\/Fitners\/Tuist\/Dependencies\/SwiftPackageManager\/.build\/checkouts\/swift-case-paths\/swift-case-paths.xcodeproj",
+      "resourceSynthesizers" : [
+        {
+          "template" : {
+            "defaultTemplate" : {
+              "_0" : "Strings"
+            }
+          },
+          "parser" : "strings",
+          "extensions" : [
+            "stringsdict",
+            "strings"
+          ]
+        },
+        {
+          "template" : {
+            "defaultTemplate" : {
+              "_0" : "Assets"
+            }
+          },
+          "parser" : "assets",
+          "extensions" : [
+            "xcassets"
+          ]
+        },
+        {
+          "template" : {
+            "defaultTemplate" : {
+              "_0" : "Plists"
+            }
+          },
+          "parser" : "plists",
+          "extensions" : [
+            "plist"
+          ]
+        },
+        {
+          "template" : {
+            "defaultTemplate" : {
+              "_0" : "Fonts"
+            }
+          },
+          "parser" : "fonts",
+          "extensions" : [
+            "ttf",
+            "ttc",
+            "otf"
+          ]
+        }
+      ],
+      "lastUpgradeCheck" : "99.9.9",
+      "schemes" : [
+
+      ],
+      "name" : "swift-case-paths"
+    },
+    "\/Users\/Aske\/Project\/Fitners\/Tuist\/Dependencies\/SwiftPackageManager\/.build\/checkouts\/swift-composable-architecture",
+    {
+      "sourceRootPath" : "\/Users\/Aske\/Project\/Fitners\/Tuist\/Dependencies\/SwiftPackageManager\/.build\/checkouts\/swift-composable-architecture",
+      "options" : {
+        "automaticSchemesOptions" : {
+          "disabled" : {
+
+          }
+        },
+        "disableShowEnvironmentVarsInScriptPhases" : false,
+        "disableBundleAccessors" : false,
+        "disableSynthesizedResourceAccessors" : true,
+        "textSettings" : {
+
+        }
+      },
+      "additionalFiles" : [
+
+      ],
+      "targets" : [
+        {
+          "scripts" : [
+
+          ],
+          "deploymentTarget" : {
+            "iOS" : {
+              "_0" : "13.0",
+              "_1" : 3
+            }
+          },
+          "prune" : false,
+          "bundleId" : "ComposableArchitecture",
+          "copyFiles" : [
+
+          ],
+          "launchArguments" : [
+
+          ],
+          "dependencies" : [
+            {
+              "project" : {
+                "target" : "CasePaths",
+                "path" : "\/Users\/Aske\/Project\/Fitners\/Tuist\/Dependencies\/SwiftPackageManager\/.build\/checkouts\/swift-case-paths"
+              }
+            },
+            {
+              "project" : {
+                "target" : "CombineSchedulers",
+                "path" : "\/Users\/Aske\/Project\/Fitners\/Tuist\/Dependencies\/SwiftPackageManager\/.build\/checkouts\/combine-schedulers"
+              }
+            },
+            {
+              "project" : {
+                "target" : "CustomDump",
+                "path" : "\/Users\/Aske\/Project\/Fitners\/Tuist\/Dependencies\/SwiftPackageManager\/.build\/checkouts\/swift-custom-dump"
+              }
+            },
+            {
+              "project" : {
+                "target" : "Dependencies",
+                "path" : "\/Users\/Aske\/Project\/Fitners\/Tuist\/Dependencies\/SwiftPackageManager\/.build\/checkouts\/swift-dependencies"
+              }
+            },
+            {
+              "project" : {
+                "target" : "IdentifiedCollections",
+                "path" : "\/Users\/Aske\/Project\/Fitners\/Tuist\/Dependencies\/SwiftPackageManager\/.build\/checkouts\/swift-identified-collections"
+              }
+            },
+            {
+              "project" : {
+                "target" : "OrderedCollections",
+                "path" : "\/Users\/Aske\/Project\/Fitners\/Tuist\/Dependencies\/SwiftPackageManager\/.build\/checkouts\/swift-collections"
+              }
+            },
+            {
+              "project" : {
+                "target" : "_SwiftUINavigationState",
+                "path" : "\/Users\/Aske\/Project\/Fitners\/Tuist\/Dependencies\/SwiftPackageManager\/.build\/checkouts\/swiftui-navigation"
+              }
+            },
+            {
+              "project" : {
+                "target" : "XCTestDynamicOverlay",
+                "path" : "\/Users\/Aske\/Project\/Fitners\/Tuist\/Dependencies\/SwiftPackageManager\/.build\/checkouts\/xctest-dynamic-overlay"
+              }
+            }
+          ],
+          "additionalFiles" : [
+
+          ],
+          "name" : "ComposableArchitecture",
+          "settings" : {
+            "base" : {
+              "SWIFT_ACTIVE_COMPILATION_CONDITIONS" : {
+                "array" : {
+                  "_0" : [
+                    "$(inherited)",
+                    "SWIFT_PACKAGE"
+                  ]
+                }
+              },
+              "CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER" : {
+                "string" : {
+                  "_0" : "NO"
+                }
+              },
+              "GCC_PREPROCESSOR_DEFINITIONS" : {
+                "array" : {
+                  "_0" : [
+                    "$(inherited)",
+                    "SWIFT_PACKAGE=1"
+                  ]
+                }
+              },
+              "FRAMEWORK_SEARCH_PATHS" : {
+                "array" : {
+                  "_0" : [
+                    "$(inherited)",
+                    "$(PLATFORM_DIR)\/Developer\/Library\/Frameworks"
+                  ]
+                }
+              },
+              "ENABLE_STRICT_OBJC_MSGSEND" : {
+                "string" : {
+                  "_0" : "NO"
+                }
+              },
+              "GCC_NO_COMMON_BLOCKS" : {
+                "string" : {
+                  "_0" : "NO"
+                }
+              },
+              "USE_HEADERMAP" : {
+                "string" : {
+                  "_0" : "NO"
+                }
+              },
+              "GCC_WARN_INHIBIT_ALL_WARNINGS" : {
+                "string" : {
+                  "_0" : "YES"
+                }
+              },
+              "SWIFT_SUPPRESS_WARNINGS" : {
+                "string" : {
+                  "_0" : "YES"
+                }
+              },
+              "CLANG_ENABLE_OBJC_WEAK" : {
+                "string" : {
+                  "_0" : "NO"
+                }
+              },
+              "ALWAYS_SEARCH_USER_PATHS" : {
+                "string" : {
+                  "_0" : "YES"
+                }
+              }
+            },
+            "configurations" : [
+              {
+                "name" : "Debug",
+                "variant" : "debug"
+              },
+              {
+                "settings" : {
+
+                }
+              },
+              {
+                "name" : "Release",
+                "variant" : "release"
+              },
+              {
+                "settings" : {
+
+                }
+              }
+            ],
+            "defaultSettings" : {
+              "recommended" : {
+                "excluding" : [
+
+                ]
+              }
+            }
+          },
+          "coreDataModels" : [
+
+          ],
+          "platform" : "ios",
+          "environment" : {
+
+          },
+          "sources" : [
+            {
+              "path" : "\/Users\/Aske\/Project\/Fitners\/Tuist\/Dependencies\/SwiftPackageManager\/.build\/checkouts\/swift-composable-architecture\/Sources\/ComposableArchitecture\/Reducer\/AnyReducer\/AnyReducerBinding.swift"
+            },
+            {
+              "path" : "\/Users\/Aske\/Project\/Fitners\/Tuist\/Dependencies\/SwiftPackageManager\/.build\/checkouts\/swift-composable-architecture\/Sources\/ComposableArchitecture\/Reducer\/Reducers\/Scope.swift"
+            },
+            {
+              "path" : "\/Users\/Aske\/Project\/Fitners\/Tuist\/Dependencies\/SwiftPackageManager\/.build\/checkouts\/swift-composable-architecture\/Sources\/ComposableArchitecture\/Effects\/Publisher\/Debouncing.swift"
+            },
+            {
+              "path" : "\/Users\/Aske\/Project\/Fitners\/Tuist\/Dependencies\/SwiftPackageManager\/.build\/checkouts\/swift-composable-architecture\/Sources\/ComposableArchitecture\/Effects\/Publisher\/Timer.swift"
+            },
+            {
+              "path" : "\/Users\/Aske\/Project\/Fitners\/Tuist\/Dependencies\/SwiftPackageManager\/.build\/checkouts\/swift-composable-architecture\/Sources\/ComposableArchitecture\/UIKit\/IfLetUIKit.swift"
+            },
+            {
+              "path" : "\/Users\/Aske\/Project\/Fitners\/Tuist\/Dependencies\/SwiftPackageManager\/.build\/checkouts\/swift-composable-architecture\/Sources\/ComposableArchitecture\/Reducer\/AnyReducer\/AnyReducerSignpost.swift"
+            },
+            {
+              "path" : "\/Users\/Aske\/Project\/Fitners\/Tuist\/Dependencies\/SwiftPackageManager\/.build\/checkouts\/swift-composable-architecture\/Sources\/ComposableArchitecture\/Internal\/Debug.swift"
+            },
+            {
+              "path" : "\/Users\/Aske\/Project\/Fitners\/Tuist\/Dependencies\/SwiftPackageManager\/.build\/checkouts\/swift-composable-architecture\/Sources\/ComposableArchitecture\/Reducer\/AnyReducer\/AnyReducerCompatibility.swift"
+            },
+            {
+              "path" : "\/Users\/Aske\/Project\/Fitners\/Tuist\/Dependencies\/SwiftPackageManager\/.build\/checkouts\/swift-composable-architecture\/Sources\/ComposableArchitecture\/Internal\/Create.swift"
+            },
+            {
+              "path" : "\/Users\/Aske\/Project\/Fitners\/Tuist\/Dependencies\/SwiftPackageManager\/.build\/checkouts\/swift-composable-architecture\/Sources\/ComposableArchitecture\/Effects\/Cancellation.swift"
+            },
+            {
+              "path" : "\/Users\/Aske\/Project\/Fitners\/Tuist\/Dependencies\/SwiftPackageManager\/.build\/checkouts\/swift-composable-architecture\/Sources\/ComposableArchitecture\/Reducer\/Reducers\/BindingReducer.swift"
+            },
+            {
+              "path" : "\/Users\/Aske\/Project\/Fitners\/Tuist\/Dependencies\/SwiftPackageManager\/.build\/checkouts\/swift-composable-architecture\/Sources\/ComposableArchitecture\/Internal\/RuntimeWarnings.swift"
+            },
+            {
+              "path" : "\/Users\/Aske\/Project\/Fitners\/Tuist\/Dependencies\/SwiftPackageManager\/.build\/checkouts\/swift-composable-architecture\/Sources\/ComposableArchitecture\/TestStore.swift"
+            },
+            {
+              "path" : "\/Users\/Aske\/Project\/Fitners\/Tuist\/Dependencies\/SwiftPackageManager\/.build\/checkouts\/swift-composable-architecture\/Sources\/ComposableArchitecture\/Reducer\/Reducers\/EmptyReducer.swift"
+            },
+            {
+              "path" : "\/Users\/Aske\/Project\/Fitners\/Tuist\/Dependencies\/SwiftPackageManager\/.build\/checkouts\/swift-composable-architecture\/Sources\/ComposableArchitecture\/Documentation.docc"
+            },
+            {
+              "path" : "\/Users\/Aske\/Project\/Fitners\/Tuist\/Dependencies\/SwiftPackageManager\/.build\/checkouts\/swift-composable-architecture\/Sources\/ComposableArchitecture\/Effects\/Publisher.swift"
+            },
+            {
+              "path" : "\/Users\/Aske\/Project\/Fitners\/Tuist\/Dependencies\/SwiftPackageManager\/.build\/checkouts\/swift-composable-architecture\/Sources\/ComposableArchitecture\/Internal\/Deprecations.swift"
+            },
+            {
+              "path" : "\/Users\/Aske\/Project\/Fitners\/Tuist\/Dependencies\/SwiftPackageManager\/.build\/checkouts\/swift-composable-architecture\/Sources\/ComposableArchitecture\/Reducer\/Reducers\/SignpostReducer.swift"
+            },
+            {
+              "path" : "\/Users\/Aske\/Project\/Fitners\/Tuist\/Dependencies\/SwiftPackageManager\/.build\/checkouts\/swift-composable-architecture\/Sources\/ComposableArchitecture\/SwiftUI\/WithViewStore.swift"
+            },
+            {
+              "path" : "\/Users\/Aske\/Project\/Fitners\/Tuist\/Dependencies\/SwiftPackageManager\/.build\/checkouts\/swift-composable-architecture\/Sources\/ComposableArchitecture\/Reducer\/Reducers\/IfCaseLetReducer.swift"
+            },
+            {
+              "path" : "\/Users\/Aske\/Project\/Fitners\/Tuist\/Dependencies\/SwiftPackageManager\/.build\/checkouts\/swift-composable-architecture\/Sources\/ComposableArchitecture\/Reducer\/Reducers\/Optional.swift"
+            },
+            {
+              "path" : "\/Users\/Aske\/Project\/Fitners\/Tuist\/Dependencies\/SwiftPackageManager\/.build\/checkouts\/swift-composable-architecture\/Sources\/ComposableArchitecture\/Reducer\/Reducers\/DependencyKeyWritingReducer.swift"
+            },
+            {
+              "path" : "\/Users\/Aske\/Project\/Fitners\/Tuist\/Dependencies\/SwiftPackageManager\/.build\/checkouts\/swift-composable-architecture\/Sources\/ComposableArchitecture\/Internal\/Locking.swift"
+            },
+            {
+              "path" : "\/Users\/Aske\/Project\/Fitners\/Tuist\/Dependencies\/SwiftPackageManager\/.build\/checkouts\/swift-composable-architecture\/Sources\/ComposableArchitecture\/SwiftUI\/SwitchStore.swift"
+            },
+            {
+              "path" : "\/Users\/Aske\/Project\/Fitners\/Tuist\/Dependencies\/SwiftPackageManager\/.build\/checkouts\/swift-composable-architecture\/Sources\/ComposableArchitecture\/Internal\/Exports.swift"
+            },
+            {
+              "path" : "\/Users\/Aske\/Project\/Fitners\/Tuist\/Dependencies\/SwiftPackageManager\/.build\/checkouts\/swift-composable-architecture\/Sources\/ComposableArchitecture\/Internal\/TypeName.swift"
+            },
+            {
+              "path" : "\/Users\/Aske\/Project\/Fitners\/Tuist\/Dependencies\/SwiftPackageManager\/.build\/checkouts\/swift-composable-architecture\/Sources\/ComposableArchitecture\/UIKit\/AlertStateUIKit.swift"
+            },
+            {
+              "path" : "\/Users\/Aske\/Project\/Fitners\/Tuist\/Dependencies\/SwiftPackageManager\/.build\/checkouts\/swift-composable-architecture\/Sources\/ComposableArchitecture\/Store.swift"
+            },
+            {
+              "path" : "\/Users\/Aske\/Project\/Fitners\/Tuist\/Dependencies\/SwiftPackageManager\/.build\/checkouts\/swift-composable-architecture\/Sources\/ComposableArchitecture\/Reducer\/ReducerBuilder.swift"
+            },
+            {
+              "path" : "\/Users\/Aske\/Project\/Fitners\/Tuist\/Dependencies\/SwiftPackageManager\/.build\/checkouts\/swift-composable-architecture\/Sources\/ComposableArchitecture\/Reducer\/Reducers\/Reduce.swift"
+            },
+            {
+              "path" : "\/Users\/Aske\/Project\/Fitners\/Tuist\/Dependencies\/SwiftPackageManager\/.build\/checkouts\/swift-composable-architecture\/Sources\/ComposableArchitecture\/Reducer\/Reducers\/ForEachReducer.swift"
+            },
+            {
+              "path" : "\/Users\/Aske\/Project\/Fitners\/Tuist\/Dependencies\/SwiftPackageManager\/.build\/checkouts\/swift-composable-architecture\/Sources\/ComposableArchitecture\/Effects\/Publisher\/Throttling.swift"
+            },
+            {
+              "path" : "\/Users\/Aske\/Project\/Fitners\/Tuist\/Dependencies\/SwiftPackageManager\/.build\/checkouts\/swift-composable-architecture\/Sources\/ComposableArchitecture\/Effects\/Publisher\/Deferring.swift"
+            },
+            {
+              "path" : "\/Users\/Aske\/Project\/Fitners\/Tuist\/Dependencies\/SwiftPackageManager\/.build\/checkouts\/swift-composable-architecture\/Sources\/ComposableArchitecture\/ReducerProtocol.swift"
+            },
+            {
+              "path" : "\/Users\/Aske\/Project\/Fitners\/Tuist\/Dependencies\/SwiftPackageManager\/.build\/checkouts\/swift-composable-architecture\/Sources\/ComposableArchitecture\/Internal\/Binding+IsPresent.swift"
+            },
+            {
+              "path" : "\/Users\/Aske\/Project\/Fitners\/Tuist\/Dependencies\/SwiftPackageManager\/.build\/checkouts\/swift-composable-architecture\/Sources\/ComposableArchitecture\/Internal\/OpenExistential.swift"
+            },
+            {
+              "path" : "\/Users\/Aske\/Project\/Fitners\/Tuist\/Dependencies\/SwiftPackageManager\/.build\/checkouts\/swift-composable-architecture\/Sources\/ComposableArchitecture\/Reducer\/AnyReducer\/AnyReducerDebug.swift"
+            },
+            {
+              "path" : "\/Users\/Aske\/Project\/Fitners\/Tuist\/Dependencies\/SwiftPackageManager\/.build\/checkouts\/swift-composable-architecture\/Sources\/ComposableArchitecture\/Reducer\/AnyReducer\/AnyReducer.swift"
+            },
+            {
+              "path" : "\/Users\/Aske\/Project\/Fitners\/Tuist\/Dependencies\/SwiftPackageManager\/.build\/checkouts\/swift-composable-architecture\/Sources\/ComposableArchitecture\/Reducer\/Reducers\/IfLetReducer.swift"
+            },
+            {
+              "path" : "\/Users\/Aske\/Project\/Fitners\/Tuist\/Dependencies\/SwiftPackageManager\/.build\/checkouts\/swift-composable-architecture\/Sources\/ComposableArchitecture\/Internal\/CurrentValueRelay.swift"
+            },
+            {
+              "path" : "\/Users\/Aske\/Project\/Fitners\/Tuist\/Dependencies\/SwiftPackageManager\/.build\/checkouts\/swift-composable-architecture\/Sources\/ComposableArchitecture\/Effects\/TaskResult.swift"
+            },
+            {
+              "path" : "\/Users\/Aske\/Project\/Fitners\/Tuist\/Dependencies\/SwiftPackageManager\/.build\/checkouts\/swift-composable-architecture\/Sources\/ComposableArchitecture\/Internal\/TaskCancellableValue.swift"
+            },
+            {
+              "path" : "\/Users\/Aske\/Project\/Fitners\/Tuist\/Dependencies\/SwiftPackageManager\/.build\/checkouts\/swift-composable-architecture\/Sources\/ComposableArchitecture\/Reducer\/Reducers\/DebugReducer.swift"
+            },
+            {
+              "path" : "\/Users\/Aske\/Project\/Fitners\/Tuist\/Dependencies\/SwiftPackageManager\/.build\/checkouts\/swift-composable-architecture\/Sources\/ComposableArchitecture\/Internal\/Box.swift"
+            },
+            {
+              "path" : "\/Users\/Aske\/Project\/Fitners\/Tuist\/Dependencies\/SwiftPackageManager\/.build\/checkouts\/swift-composable-architecture\/Sources\/ComposableArchitecture\/SwiftUI\/ConfirmationDialog.swift"
+            },
+            {
+              "path" : "\/Users\/Aske\/Project\/Fitners\/Tuist\/Dependencies\/SwiftPackageManager\/.build\/checkouts\/swift-composable-architecture\/Sources\/ComposableArchitecture\/SwiftUI\/Binding.swift"
+            },
+            {
+              "path" : "\/Users\/Aske\/Project\/Fitners\/Tuist\/Dependencies\/SwiftPackageManager\/.build\/checkouts\/swift-composable-architecture\/Sources\/ComposableArchitecture\/SwiftUI\/IfLetStore.swift"
+            },
+            {
+              "path" : "\/Users\/Aske\/Project\/Fitners\/Tuist\/Dependencies\/SwiftPackageManager\/.build\/checkouts\/swift-composable-architecture\/Sources\/ComposableArchitecture\/Reducer\/Reducers\/CombineReducers.swift"
+            },
+            {
+              "path" : "\/Users\/Aske\/Project\/Fitners\/Tuist\/Dependencies\/SwiftPackageManager\/.build\/checkouts\/swift-composable-architecture\/Sources\/ComposableArchitecture\/ViewStore.swift"
+            },
+            {
+              "path" : "\/Users\/Aske\/Project\/Fitners\/Tuist\/Dependencies\/SwiftPackageManager\/.build\/checkouts\/swift-composable-architecture\/Sources\/ComposableArchitecture\/Effect.swift"
+            },
+            {
+              "path" : "\/Users\/Aske\/Project\/Fitners\/Tuist\/Dependencies\/SwiftPackageManager\/.build\/checkouts\/swift-composable-architecture\/Sources\/ComposableArchitecture\/Effects\/Animation.swift"
+            },
+            {
+              "path" : "\/Users\/Aske\/Project\/Fitners\/Tuist\/Dependencies\/SwiftPackageManager\/.build\/checkouts\/swift-composable-architecture\/Sources\/ComposableArchitecture\/SwiftUI\/Alert.swift"
+            },
+            {
+              "path" : "\/Users\/Aske\/Project\/Fitners\/Tuist\/Dependencies\/SwiftPackageManager\/.build\/checkouts\/swift-composable-architecture\/Sources\/ComposableArchitecture\/SwiftUI\/ForEachStore.swift"
+            }
+          ],
+          "resources" : [
+
+          ],
+          "product" : "staticFramework",
+          "playgrounds" : [
+
+          ],
+          "productName" : "ComposableArchitecture",
+          "filesGroup" : {
+            "group" : {
+              "name" : "Project"
+            }
+          },
+          "rawScriptBuildPhases" : [
+
+          ],
+          "infoPlist" : {
+            "extendingDefault" : {
+              "with" : {
+
+              }
+            }
+          }
+        }
+      ],
+      "settings" : {
+        "base" : {
+
+        },
+        "configurations" : [
+          {
+            "name" : "Release",
+            "variant" : "release"
+          },
+          {
+            "settings" : {
+
+            }
+          },
+          {
+            "name" : "Debug",
+            "variant" : "debug"
+          },
+          {
+            "settings" : {
+
+            }
+          }
+        ],
+        "defaultSettings" : {
+          "recommended" : {
+            "excluding" : [
+
+            ]
+          }
+        }
+      },
+      "path" : "\/Users\/Aske\/Project\/Fitners\/Tuist\/Dependencies\/SwiftPackageManager\/.build\/checkouts\/swift-composable-architecture",
+      "isExternal" : true,
+      "filesGroup" : {
+        "group" : {
+          "name" : "Project"
+        }
+      },
+      "packages" : [
+
+      ],
+      "xcodeProjPath" : "\/Users\/Aske\/Project\/Fitners\/Tuist\/Dependencies\/SwiftPackageManager\/.build\/checkouts\/swift-composable-architecture\/swift-composable-architecture.xcodeproj",
+      "resourceSynthesizers" : [
+        {
+          "template" : {
+            "defaultTemplate" : {
+              "_0" : "Strings"
+            }
+          },
+          "parser" : "strings",
+          "extensions" : [
+            "strings",
+            "stringsdict"
+          ]
+        },
+        {
+          "template" : {
+            "defaultTemplate" : {
+              "_0" : "Assets"
+            }
+          },
+          "parser" : "assets",
+          "extensions" : [
+            "xcassets"
+          ]
+        },
+        {
+          "template" : {
+            "defaultTemplate" : {
+              "_0" : "Plists"
+            }
+          },
+          "parser" : "plists",
+          "extensions" : [
+            "plist"
+          ]
+        },
+        {
+          "template" : {
+            "defaultTemplate" : {
+              "_0" : "Fonts"
+            }
+          },
+          "parser" : "fonts",
+          "extensions" : [
+            "otf",
+            "ttc",
+            "ttf"
+          ]
+        }
+      ],
+      "lastUpgradeCheck" : "99.9.9",
+      "schemes" : [
+
+      ],
+      "name" : "swift-composable-architecture"
+    },
+    "\/Users\/Aske\/Project\/Fitners\/Tuist\/Dependencies\/SwiftPackageManager\/.build\/checkouts\/swift-dependencies",
+    {
+      "sourceRootPath" : "\/Users\/Aske\/Project\/Fitners\/Tuist\/Dependencies\/SwiftPackageManager\/.build\/checkouts\/swift-dependencies",
+      "options" : {
+        "automaticSchemesOptions" : {
+          "disabled" : {
+
+          }
+        },
+        "disableShowEnvironmentVarsInScriptPhases" : false,
+        "disableBundleAccessors" : false,
+        "disableSynthesizedResourceAccessors" : true,
+        "textSettings" : {
+
+        }
+      },
+      "additionalFiles" : [
+
+      ],
+      "targets" : [
+        {
+          "scripts" : [
+
+          ],
+          "deploymentTarget" : {
+            "iOS" : {
+              "_0" : "13.0",
+              "_1" : 3
+            }
+          },
+          "prune" : false,
+          "bundleId" : "Dependencies",
+          "copyFiles" : [
+
+          ],
+          "launchArguments" : [
+
+          ],
+          "dependencies" : [
+            {
+              "project" : {
+                "target" : "CombineSchedulers",
+                "path" : "\/Users\/Aske\/Project\/Fitners\/Tuist\/Dependencies\/SwiftPackageManager\/.build\/checkouts\/combine-schedulers"
+              }
+            },
+            {
+              "project" : {
+                "target" : "Clocks",
+                "path" : "\/Users\/Aske\/Project\/Fitners\/Tuist\/Dependencies\/SwiftPackageManager\/.build\/checkouts\/swift-clocks"
+              }
+            },
+            {
+              "project" : {
+                "target" : "XCTestDynamicOverlay",
+                "path" : "\/Users\/Aske\/Project\/Fitners\/Tuist\/Dependencies\/SwiftPackageManager\/.build\/checkouts\/xctest-dynamic-overlay"
+              }
+            }
+          ],
+          "additionalFiles" : [
+
+          ],
+          "name" : "Dependencies",
+          "settings" : {
+            "base" : {
+              "GCC_PREPROCESSOR_DEFINITIONS" : {
+                "array" : {
+                  "_0" : [
+                    "$(inherited)",
+                    "SWIFT_PACKAGE=1"
+                  ]
+                }
+              },
+              "SWIFT_ACTIVE_COMPILATION_CONDITIONS" : {
+                "array" : {
+                  "_0" : [
+                    "$(inherited)",
+                    "SWIFT_PACKAGE"
+                  ]
+                }
+              },
+              "CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER" : {
+                "string" : {
+                  "_0" : "NO"
+                }
+              },
+              "FRAMEWORK_SEARCH_PATHS" : {
+                "array" : {
+                  "_0" : [
+                    "$(inherited)",
+                    "$(PLATFORM_DIR)\/Developer\/Library\/Frameworks"
+                  ]
+                }
+              },
+              "ENABLE_STRICT_OBJC_MSGSEND" : {
+                "string" : {
+                  "_0" : "NO"
+                }
+              },
+              "GCC_NO_COMMON_BLOCKS" : {
+                "string" : {
+                  "_0" : "NO"
+                }
+              },
+              "USE_HEADERMAP" : {
+                "string" : {
+                  "_0" : "NO"
+                }
+              },
+              "GCC_WARN_INHIBIT_ALL_WARNINGS" : {
+                "string" : {
+                  "_0" : "YES"
+                }
+              },
+              "SWIFT_SUPPRESS_WARNINGS" : {
+                "string" : {
+                  "_0" : "YES"
+                }
+              },
+              "CLANG_ENABLE_OBJC_WEAK" : {
+                "string" : {
+                  "_0" : "NO"
+                }
+              },
+              "ALWAYS_SEARCH_USER_PATHS" : {
+                "string" : {
+                  "_0" : "YES"
+                }
+              }
+            },
+            "configurations" : [
+              {
+                "name" : "Release",
+                "variant" : "release"
+              },
+              {
+                "settings" : {
+
+                }
+              },
+              {
+                "name" : "Debug",
+                "variant" : "debug"
+              },
+              {
+                "settings" : {
+
+                }
+              }
+            ],
+            "defaultSettings" : {
+              "recommended" : {
+                "excluding" : [
+
+                ]
+              }
+            }
+          },
+          "coreDataModels" : [
+
+          ],
+          "platform" : "ios",
+          "environment" : {
+
+          },
+          "sources" : [
+            {
+              "path" : "\/Users\/Aske\/Project\/Fitners\/Tuist\/Dependencies\/SwiftPackageManager\/.build\/checkouts\/swift-dependencies\/Sources\/Dependencies\/DependencyKey.swift"
+            },
+            {
+              "path" : "\/Users\/Aske\/Project\/Fitners\/Tuist\/Dependencies\/SwiftPackageManager\/.build\/checkouts\/swift-dependencies\/Sources\/Dependencies\/DependencyValues\/Locale.swift"
+            },
+            {
+              "path" : "\/Users\/Aske\/Project\/Fitners\/Tuist\/Dependencies\/SwiftPackageManager\/.build\/checkouts\/swift-dependencies\/Sources\/Dependencies\/ConcurrencySupport\/UncheckedSendable.swift"
+            },
+            {
+              "path" : "\/Users\/Aske\/Project\/Fitners\/Tuist\/Dependencies\/SwiftPackageManager\/.build\/checkouts\/swift-dependencies\/Sources\/Dependencies\/DependencyValues\/Date.swift"
+            },
+            {
+              "path" : "\/Users\/Aske\/Project\/Fitners\/Tuist\/Dependencies\/SwiftPackageManager\/.build\/checkouts\/swift-dependencies\/Sources\/Dependencies\/Internal\/RuntimeWarnings.swift"
+            },
+            {
+              "path" : "\/Users\/Aske\/Project\/Fitners\/Tuist\/Dependencies\/SwiftPackageManager\/.build\/checkouts\/swift-dependencies\/Sources\/Dependencies\/WithDependencies.swift"
+            },
+            {
+              "path" : "\/Users\/Aske\/Project\/Fitners\/Tuist\/Dependencies\/SwiftPackageManager\/.build\/checkouts\/swift-dependencies\/Sources\/Dependencies\/DependencyValues.swift"
+            },
+            {
+              "path" : "\/Users\/Aske\/Project\/Fitners\/Tuist\/Dependencies\/SwiftPackageManager\/.build\/checkouts\/swift-dependencies\/Sources\/Dependencies\/ConcurrencySupport\/ActorIsolated.swift"
+            },
+            {
+              "path" : "\/Users\/Aske\/Project\/Fitners\/Tuist\/Dependencies\/SwiftPackageManager\/.build\/checkouts\/swift-dependencies\/Sources\/Dependencies\/Internal\/OpenExistential.swift"
+            },
+            {
+              "path" : "\/Users\/Aske\/Project\/Fitners\/Tuist\/Dependencies\/SwiftPackageManager\/.build\/checkouts\/swift-dependencies\/Sources\/Dependencies\/DependencyValues\/FireAndForget.swift"
+            },
+            {
+              "path" : "\/Users\/Aske\/Project\/Fitners\/Tuist\/Dependencies\/SwiftPackageManager\/.build\/checkouts\/swift-dependencies\/Sources\/Dependencies\/ConcurrencySupport\/Task.swift"
+            },
+            {
+              "path" : "\/Users\/Aske\/Project\/Fitners\/Tuist\/Dependencies\/SwiftPackageManager\/.build\/checkouts\/swift-dependencies\/Sources\/Dependencies\/DependencyContext.swift"
+            },
+            {
+              "path" : "\/Users\/Aske\/Project\/Fitners\/Tuist\/Dependencies\/SwiftPackageManager\/.build\/checkouts\/swift-dependencies\/Sources\/Dependencies\/Internal\/Deprecations.swift"
+            },
+            {
+              "path" : "\/Users\/Aske\/Project\/Fitners\/Tuist\/Dependencies\/SwiftPackageManager\/.build\/checkouts\/swift-dependencies\/Sources\/Dependencies\/DependencyValues\/Context.swift"
+            },
+            {
+              "path" : "\/Users\/Aske\/Project\/Fitners\/Tuist\/Dependencies\/SwiftPackageManager\/.build\/checkouts\/swift-dependencies\/Sources\/Dependencies\/Internal\/TypeName.swift"
+            },
+            {
+              "path" : "\/Users\/Aske\/Project\/Fitners\/Tuist\/Dependencies\/SwiftPackageManager\/.build\/checkouts\/swift-dependencies\/Sources\/Dependencies\/Dependency.swift"
+            },
+            {
+              "path" : "\/Users\/Aske\/Project\/Fitners\/Tuist\/Dependencies\/SwiftPackageManager\/.build\/checkouts\/swift-dependencies\/Sources\/Dependencies\/DependencyValues\/Calendar.swift"
+            },
+            {
+              "path" : "\/Users\/Aske\/Project\/Fitners\/Tuist\/Dependencies\/SwiftPackageManager\/.build\/checkouts\/swift-dependencies\/Sources\/Dependencies\/DependencyValues\/UUID.swift"
+            },
+            {
+              "path" : "\/Users\/Aske\/Project\/Fitners\/Tuist\/Dependencies\/SwiftPackageManager\/.build\/checkouts\/swift-dependencies\/Sources\/Dependencies\/DependencyValues\/MainRunLoop.swift"
+            },
+            {
+              "path" : "\/Users\/Aske\/Project\/Fitners\/Tuist\/Dependencies\/SwiftPackageManager\/.build\/checkouts\/swift-dependencies\/Sources\/Dependencies\/Internal\/Exports.swift"
+            },
+            {
+              "path" : "\/Users\/Aske\/Project\/Fitners\/Tuist\/Dependencies\/SwiftPackageManager\/.build\/checkouts\/swift-dependencies\/Sources\/Dependencies\/ConcurrencySupport\/AsyncThrowingStream.swift"
+            },
+            {
+              "path" : "\/Users\/Aske\/Project\/Fitners\/Tuist\/Dependencies\/SwiftPackageManager\/.build\/checkouts\/swift-dependencies\/Sources\/Dependencies\/DependencyValues\/URLSession.swift"
+            },
+            {
+              "path" : "\/Users\/Aske\/Project\/Fitners\/Tuist\/Dependencies\/SwiftPackageManager\/.build\/checkouts\/swift-dependencies\/Sources\/Dependencies\/DependencyValues\/Clocks.swift"
+            },
+            {
+              "path" : "\/Users\/Aske\/Project\/Fitners\/Tuist\/Dependencies\/SwiftPackageManager\/.build\/checkouts\/swift-dependencies\/Sources\/Dependencies\/DependencyValues\/TimeZone.swift"
+            },
+            {
+              "path" : "\/Users\/Aske\/Project\/Fitners\/Tuist\/Dependencies\/SwiftPackageManager\/.build\/checkouts\/swift-dependencies\/Sources\/Dependencies\/DependencyValues\/OpenURL.swift"
+            },
+            {
+              "path" : "\/Users\/Aske\/Project\/Fitners\/Tuist\/Dependencies\/SwiftPackageManager\/.build\/checkouts\/swift-dependencies\/Sources\/Dependencies\/Documentation.docc"
+            },
+            {
+              "path" : "\/Users\/Aske\/Project\/Fitners\/Tuist\/Dependencies\/SwiftPackageManager\/.build\/checkouts\/swift-dependencies\/Sources\/Dependencies\/DependencyValues\/MainQueue.swift"
+            },
+            {
+              "path" : "\/Users\/Aske\/Project\/Fitners\/Tuist\/Dependencies\/SwiftPackageManager\/.build\/checkouts\/swift-dependencies\/Sources\/Dependencies\/ConcurrencySupport\/AsyncStream.swift"
+            },
+            {
+              "path" : "\/Users\/Aske\/Project\/Fitners\/Tuist\/Dependencies\/SwiftPackageManager\/.build\/checkouts\/swift-dependencies\/Sources\/Dependencies\/ConcurrencySupport\/LockIsolated.swift"
+            },
+            {
+              "path" : "\/Users\/Aske\/Project\/Fitners\/Tuist\/Dependencies\/SwiftPackageManager\/.build\/checkouts\/swift-dependencies\/Sources\/Dependencies\/DependencyValues\/WithRandomNumberGenerator.swift"
+            }
+          ],
+          "resources" : [
+
+          ],
+          "product" : "staticFramework",
+          "playgrounds" : [
+
+          ],
+          "productName" : "Dependencies",
+          "filesGroup" : {
+            "group" : {
+              "name" : "Project"
+            }
+          },
+          "rawScriptBuildPhases" : [
+
+          ],
+          "infoPlist" : {
+            "extendingDefault" : {
+              "with" : {
+
+              }
+            }
+          }
+        }
+      ],
+      "settings" : {
+        "base" : {
+
+        },
+        "configurations" : [
+          {
+            "name" : "Release",
+            "variant" : "release"
+          },
+          {
+            "settings" : {
+
+            }
+          },
+          {
+            "name" : "Debug",
+            "variant" : "debug"
+          },
+          {
+            "settings" : {
+
+            }
+          }
+        ],
+        "defaultSettings" : {
+          "recommended" : {
+            "excluding" : [
+
+            ]
+          }
+        }
+      },
+      "path" : "\/Users\/Aske\/Project\/Fitners\/Tuist\/Dependencies\/SwiftPackageManager\/.build\/checkouts\/swift-dependencies",
+      "isExternal" : true,
+      "filesGroup" : {
+        "group" : {
+          "name" : "Project"
+        }
+      },
+      "packages" : [
+
+      ],
+      "xcodeProjPath" : "\/Users\/Aske\/Project\/Fitners\/Tuist\/Dependencies\/SwiftPackageManager\/.build\/checkouts\/swift-dependencies\/swift-dependencies.xcodeproj",
+      "resourceSynthesizers" : [
+        {
+          "template" : {
+            "defaultTemplate" : {
+              "_0" : "Strings"
+            }
+          },
+          "parser" : "strings",
+          "extensions" : [
+            "strings",
+            "stringsdict"
+          ]
+        },
+        {
+          "template" : {
+            "defaultTemplate" : {
+              "_0" : "Assets"
+            }
+          },
+          "parser" : "assets",
+          "extensions" : [
+            "xcassets"
+          ]
+        },
+        {
+          "template" : {
+            "defaultTemplate" : {
+              "_0" : "Plists"
+            }
+          },
+          "parser" : "plists",
+          "extensions" : [
+            "plist"
+          ]
+        },
+        {
+          "template" : {
+            "defaultTemplate" : {
+              "_0" : "Fonts"
+            }
+          },
+          "parser" : "fonts",
+          "extensions" : [
+            "otf",
+            "ttc",
+            "ttf"
+          ]
+        }
+      ],
+      "lastUpgradeCheck" : "99.9.9",
+      "schemes" : [
+
+      ],
+      "name" : "swift-dependencies"
+    }
+  ],
+  "externalDependencies" : [
+    "ios",
+    {
+      "Collections" : [
+        {
+          "project" : {
+            "target" : "Collections",
+            "path" : "\/Users\/Aske\/Project\/Fitners\/Tuist\/Dependencies\/SwiftPackageManager\/.build\/checkouts\/swift-collections"
+          }
+        }
+      ],
+      "IdentifiedCollections" : [
+        {
+          "project" : {
+            "target" : "IdentifiedCollections",
+            "path" : "\/Users\/Aske\/Project\/Fitners\/Tuist\/Dependencies\/SwiftPackageManager\/.build\/checkouts\/swift-identified-collections"
+          }
+        }
+      ],
+      "CustomDump" : [
+        {
+          "project" : {
+            "target" : "CustomDump",
+            "path" : "\/Users\/Aske\/Project\/Fitners\/Tuist\/Dependencies\/SwiftPackageManager\/.build\/checkouts\/swift-custom-dump"
+          }
+        }
+      ],
+      "CombineSchedulers" : [
+        {
+          "project" : {
+            "target" : "CombineSchedulers",
+            "path" : "\/Users\/Aske\/Project\/Fitners\/Tuist\/Dependencies\/SwiftPackageManager\/.build\/checkouts\/combine-schedulers"
+          }
+        }
+      ],
+      "Lottie" : [
+        {
+          "xcframework" : {
+            "path" : "\/Users\/Aske\/Project\/Fitners\/Tuist\/Dependencies\/SwiftPackageManager\/.build\/artifacts\/lottie-spm\/Lottie.xcframework"
+          }
+        },
+        {
+          "project" : {
+            "target" : "_LottieStub",
+            "path" : "\/Users\/Aske\/Project\/Fitners\/Tuist\/Dependencies\/SwiftPackageManager\/.build\/checkouts\/lottie-spm"
+          }
+        }
+      ],
+      "SnapKit" : [
+        {
+          "project" : {
+            "target" : "SnapKit",
+            "path" : "\/Users\/Aske\/Project\/Fitners\/Tuist\/Dependencies\/SwiftPackageManager\/.build\/checkouts\/SnapKit"
+          }
+        }
+      ],
+      "OrderedCollections" : [
+        {
+          "project" : {
+            "target" : "OrderedCollections",
+            "path" : "\/Users\/Aske\/Project\/Fitners\/Tuist\/Dependencies\/SwiftPackageManager\/.build\/checkouts\/swift-collections"
+          }
+        }
+      ],
+      "XCTestDynamicOverlay" : [
+        {
+          "project" : {
+            "target" : "XCTestDynamicOverlay",
+            "path" : "\/Users\/Aske\/Project\/Fitners\/Tuist\/Dependencies\/SwiftPackageManager\/.build\/checkouts\/xctest-dynamic-overlay"
+          }
+        }
+      ],
+      "CasePaths" : [
+        {
+          "project" : {
+            "target" : "CasePaths",
+            "path" : "\/Users\/Aske\/Project\/Fitners\/Tuist\/Dependencies\/SwiftPackageManager\/.build\/checkouts\/swift-case-paths"
+          }
+        }
+      ],
+      "SwiftUINavigation" : [
+        {
+          "project" : {
+            "target" : "SwiftUINavigation",
+            "path" : "\/Users\/Aske\/Project\/Fitners\/Tuist\/Dependencies\/SwiftPackageManager\/.build\/checkouts\/swiftui-navigation"
+          }
+        }
+      ],
+      "Clocks" : [
+        {
+          "project" : {
+            "target" : "Clocks",
+            "path" : "\/Users\/Aske\/Project\/Fitners\/Tuist\/Dependencies\/SwiftPackageManager\/.build\/checkouts\/swift-clocks"
+          }
+        }
+      ],
+      "DequeModule" : [
+        {
+          "project" : {
+            "target" : "DequeModule",
+            "path" : "\/Users\/Aske\/Project\/Fitners\/Tuist\/Dependencies\/SwiftPackageManager\/.build\/checkouts\/swift-collections"
+          }
+        }
+      ],
+      "_SwiftUINavigationState" : [
+        {
+          "project" : {
+            "target" : "_SwiftUINavigationState",
+            "path" : "\/Users\/Aske\/Project\/Fitners\/Tuist\/Dependencies\/SwiftPackageManager\/.build\/checkouts\/swiftui-navigation"
+          }
+        }
+      ],
+      "ComposableArchitecture" : [
+        {
+          "project" : {
+            "target" : "ComposableArchitecture",
+            "path" : "\/Users\/Aske\/Project\/Fitners\/Tuist\/Dependencies\/SwiftPackageManager\/.build\/checkouts\/swift-composable-architecture"
+          }
+        }
+      ],
+      "Dependencies" : [
+        {
+          "project" : {
+            "target" : "Dependencies",
+            "path" : "\/Users\/Aske\/Project\/Fitners\/Tuist\/Dependencies\/SwiftPackageManager\/.build\/checkouts\/swift-dependencies"
+          }
+        }
+      ]
+    }
+  ]
+}
