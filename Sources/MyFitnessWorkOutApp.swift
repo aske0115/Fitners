@@ -18,7 +18,6 @@ struct MyFitnessWorkOutApp: App {
     var body: some Scene {
         WindowGroup {
             SplashIntroView(store: Store(initialState: SplashFeature.State(), reducer: SplashFeature()))
-                .edgesIgnoringSafeArea(.all)
         }
     }
 }

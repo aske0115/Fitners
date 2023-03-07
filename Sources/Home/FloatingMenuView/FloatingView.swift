@@ -47,7 +47,6 @@ struct FloatingView: View {
                 .clipShape(Circle())
                 .overlay(Circle().stroke(Color.clear,lineWidth:2).shadow(radius: 10))
                 .padding(.top, -30)
-                .edgesIgnoringSafeArea(.all)
             }
         }
     }
