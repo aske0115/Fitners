@@ -20,7 +20,7 @@ struct SplashFeature: ReducerProtocol {
         case loadingCompleted
     }
     
-    public func reduce(into state: inout State, action: Action) -> Effect<Action, Never> {
+    public func reduce(into state: inout State, action: Action) -> EffectTask<Action> {
         switch action {
             case .loadingCompleted:
             state.isActive = true
@@ -69,7 +69,7 @@ struct SplashIntroView: View {
     let store: StoreOf<SplashFeature>
 
     var body: some View {
-        WithViewStore(self.store) { viewStore in
+        WithViewStore(self.store, observe: { $0 }) { viewStore in
             if viewStore.isActive {
                 MainTabView(store: Store(initialState: MainTabFeature.State(), reducer: MainTabFeature()))
             } else {
@@ -83,7 +83,7 @@ struct SplashIntroView: View {
                             .foregroundColor(.white)
                             .font(.headline)
                     }
-                    
+
                     .opacity(viewStore.viewOpacity)
                     .onAppear {
                         DispatchQueue.main.asyncAfter(deadline: .now() + 3.0) {
@@ -95,7 +95,6 @@ struct SplashIntroView: View {
                 }
             }
         }
-        
     }
 }
 

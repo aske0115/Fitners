@@ -99,7 +99,9 @@ struct HomeView: View {
                     FloatingView()
                         .padding(.top, g.size.height - 60)
                 }
-                .frame(width: g.size.width, height: g.size.height, alignment: .topLeading)
+                .frame(width: g.size.width,
+                       height: g.size.height,
+                       alignment: .topLeading)
             }
             .navigationBarTitleDisplayMode(.inline)
             .toolbar {

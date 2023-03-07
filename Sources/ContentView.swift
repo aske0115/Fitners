@@ -20,7 +20,7 @@ struct TestFeature: ReducerProtocol {
         case decrease
     }
     
-    func reduce(into state: inout State, action: Action) -> Effect<Action, Never> {
+    func reduce(into state: inout State, action: Action) -> EffectTask<Action> {
         switch action {
         case .increase:
             state.counter += 1
