@@ -24,21 +24,6 @@
 	<dict>
 		<key>UIColorName</key>
 		<string>AccentColor</string>
-		<key>UINavigationBar</key>
-		<dict>
-			<key>UIImageName</key>
-			<string>Logo</string>
-		</dict>
-		<key>UITabBar</key>
-		<dict>
-			<key>UIImageName</key>
-			<string>Logo</string>
-		</dict>
-		<key>UIToolbar</key>
-		<dict>
-			<key>UIImageName</key>
-			<string>Logo</string>
-		</dict>
 	</dict>
 	<key>UISupportedInterfaceOrientations</key>
 	<array>
