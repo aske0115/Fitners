@@ -17,7 +17,7 @@ struct MainTabFeature: ReducerProtocol {
         case selectTab(Int)
     }
     
-    func reduce(into state: inout State, action: Action) -> Effect<Action, Never> {
+    func reduce(into state: inout State, action: Action) -> EffectTask<Action> {
         switch action {
         case .selectTab(let index):
             state.selection = index
